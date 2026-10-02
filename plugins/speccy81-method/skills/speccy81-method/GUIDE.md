@@ -1,5 +1,5 @@
 # Speccy81 Method · basic edition
-LV-Webstudio — version 1.6 (2026-10-01)
+LV-Webstudio — version 1.7 (2026-10-02)
 
 A guide for setting up extensions and small projects (1 to 2 days on a single
 machine) with the same rigour as a large one: first understand what is there, see what
@@ -75,6 +75,22 @@ project can grow without renumbering anything.
 5. Secrets never go into messages or memory.
 <!-- rule-13-short:end -->
 
+## Short team rules (1.7)
+
+Ten one-line principles for working with production, with several sessions or with sensitive data. They do not
+replace the golden rules: where a principle is already in one, it is cited. None adds a fixed step to every task.
+
+1. **The decision belongs to whoever decides** (see rules 9 and 13). A relayed or quoted decision (second-hand) is never an approval: only the user's written yes, in the window of whoever executes.
+2. **A control is not worked around** (see rule 13). Report what was attempted and why; whatever was not checked stays «not checked», and the user decides.
+3. **Minimum data, on the way out too.** Production reads declare their fields. Consoles, reports and logs never carry values, only ids, counts or hashes; if the value is needed, it goes in a local file for the user.
+4. **Control the output, not just the input.** What is public shows the minimum of the datum and its authorisation. Before trusting the server rules, ask who writes, with which credential and with which default value anything new is created (decided on the server).
+5. **A single decision point.** A sensitive datum is decided in one place only, with a test that fails if anyone reads it outside that place.
+6. **Before a general order, look for where it makes things worse.** Before applying it, look for the cases in which it would harm what it is meant to protect, and ask.
+7. **What is delivered can be verified** (extends rule 2). Every delivery between sessions carries its SHA-256 hash, and only what matches what was reviewed is run.
+8. **Before and after, from outside.** The baseline is frozen before the change is announced; if the value is sensitive, a comparable measure (a distance or a hash) is kept instead of losing it. Afterwards, check from outside with anonymous reads only, and repeat at 24 and at 48 h.
+9. **Heavy work takes turns.** One thing after another: an entry threshold, monitoring, a cut-off that kills the child processes and a check that nothing is left running. Hooks that launch tests count too.
+10. **When unsure, leave it as it was.** Verdicts YES, NO or UNSURE, each with its source; when unsure, the previous state is kept. A reviewer may raise or lower their own finding, with proof.
+
 ---
 
 ## Phases
@@ -136,6 +152,8 @@ before it is published.
 - The complete edition adds the split of files between agents, the
   Safari/WebKit list, deployment with review on another device (phase 8 bis),
   publication (phase 9) and governance of several machines and sessions.
+- The complete edition also adds the annexes of the short team rules and templates 22 (data migration),
+  23 (handover or machine change) and 24 (privacy checklist).
 
 ---
 
@@ -153,4 +171,4 @@ before it is published.
 | `templates/21-accountability.md` | Rule 2: closing each task with the literal order, «Proof:», what was not done and what was not checked |
 
 ---
-This is the **basic edition** of the Speccy81 Method. The **complete edition** adds parallel research waves, the single audit, deployment and QA on another device, publication, coordination of several machines, the validators and 21 templates. Licensed by LV-Webstudio: https://lv-webstudio.com/
+This is the **basic edition** of the Speccy81 Method. The **complete edition** adds parallel research waves, the single audit, deployment and QA on another device, publication, coordination of several machines, the validators and 24 templates. Licensed by LV-Webstudio: https://lv-webstudio.com/

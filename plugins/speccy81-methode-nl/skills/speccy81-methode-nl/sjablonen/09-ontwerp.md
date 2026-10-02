@@ -24,6 +24,8 @@ door code met regels berekend; de AI legt alleen uit.
 | Fase | Inhoud | Mijlpaal bij afsluiting (echte test) |
 |---|---|---|
 
+**Acceptatiecriteria** (vóór de start): elk met cijfers en expliciete aannames (machine, gegevens, netwerk), gemarkeerd als «voorstel» tot het op de echte machine is gemeten.
+
 ## 5. Plan voor veldtests (samenvatting en prioriteit; detail met sjabloon 13)
 
 ## 6. Besluiten van de gebruiker

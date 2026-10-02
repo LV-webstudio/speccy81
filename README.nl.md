@@ -14,12 +14,12 @@ Dit is de **basiseditie**: vrij en openbaar, met een skill, een korte gids en 8 
 |---|---|---|
 | Licentie | Openbaar: CC BY 4.0 (gids, SKILL en sjablonen) + MIT (scripts); zie `NOTICE` | Eigendom van LV-Webstudio |
 | Traject | Een licht traject in vijf stappen voor uitbreidingen en kleine projecten | Fasen 0–9 plus 8 bis |
-| Sjablonen | 8 (01, 06, 09, 10, 13, 15, 20 en 21) | 21 |
-| Gouden regels | De 13, in korte vorm | De 13 volledig, plus de efficiëntieverbeteringen E1–E15 |
+| Sjablonen | 8 (01, 06, 09, 10, 13, 15, 20 en 21) | 24 |
+| Gouden regels | De 13, in korte vorm, en de 10 korte teamregels | De 13 volledig, de 10 korte teamregels met hun bijlagen en de efficiëntieverbeteringen E1–E15 |
 | Onderzoek en audit | — | Onderzoeksgolven in parallel en één enkele audit |
 | Kennisvalidator | — | Ja |
 | Uitrol en lancering | — | Uitrol en QA op een ander apparaat, en publicatie |
-| Bestuur en veiligheid | Regel 13 in korte vorm, «Bewijs:» bij elk resultaat, incidenten (20) en rekenschap (21) | Daarnaast: bestuur van meerdere machines (19), een geheim verplaatsen en een blootgestelde sleutel roteren |
+| Bestuur en veiligheid | Regel 13 in korte vorm, «Bewijs:» bij elk resultaat, incidenten (20) en rekenschap (21) | Daarnaast: bestuur van meerdere machines (19), een geheim verplaatsen, een blootgestelde sleutel roteren, datamigratie (22), overdracht of machinewissel (23) en privacychecklist (24) |
 | Meerdere machines | Eén enkele sessie of machine; voor meerdere sessies met minimale regels: Wassup Basis | Volledig bestuur en optionele coördinatie met Wassup |
 
 ## De vijf stappen

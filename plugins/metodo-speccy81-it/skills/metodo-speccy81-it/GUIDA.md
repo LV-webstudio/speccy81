@@ -1,5 +1,5 @@
 # Metodo Speccy81 · edizione base
-LV-Webstudio — versione 1.6 (2026-10-01)
+LV-Webstudio — versione 1.7 (2026-10-02)
 
 Una guida per impostare estensioni e piccoli progetti (da 1 a 2 giorni e una sola
 macchina) con lo stesso rigore di uno grande: capire prima ciò che esiste, vedere cosa
@@ -75,6 +75,22 @@ progetto può crescere senza rinumerare nulla.
 5. I segreti non vanno mai nei messaggi né nella memoria.
 <!-- regla-13-corta:fin -->
 
+## Regole brevi del team (1.7)
+
+Dieci principi di una riga per lavorare con la produzione, con più sessioni o con dati sensibili. Non sostituiscono
+le regole d'oro: se un principio è già in una di esse, la si cita. Nessuno aggiunge un passo fisso a ogni incarico.
+
+1. **La decisione spetta a chi decide** (vedi regole 9 e 13). Una decisione inoltrata o citata da un'altra sessione (di seconda mano) non vale mai come approvazione: vale solo il sì scritto dell'utente, nella finestra di chi esegue.
+2. **Un controllo non si aggira** (vedi regola 13). Si segnala cosa si è tentato e perché; ciò che non è stato verificato resta «non verificato» e decide l'utente.
+3. **Dato minimo, anche in uscita.** Le letture di produzione dichiarano i loro campi. Console, rapporti e registri non riportano mai valori, solo id, conteggi o impronte; il valore, se serve, va in un file locale per l'utente.
+4. **Controlla l'uscita, non solo l'ingresso.** Ciò che è pubblico mostra il minimo tra il dato e la sua autorizzazione. Prima di fidarsi delle regole del server, ci si chiede chi scrive, con quale credenziale e con quale valore predefinito nasce ciò che è nuovo (deciso sul server).
+5. **Un solo punto di decisione.** Un dato sensibile si decide in un unico posto, con un test che fallisce se qualcuno lo legge fuori da lì.
+6. **Prima di un ordine generale, cerca dove peggiora le cose.** Prima di applicarlo, si cercano i casi in cui danneggerebbe ciò che si vuole proteggere, e si chiede.
+7. **Ciò che si consegna si può verificare** (amplia la regola 2). Ogni consegna tra sessioni porta la sua impronta SHA-256, e si esegue solo ciò che coincide con quanto revisionato.
+8. **Prima e dopo, dall'esterno.** La linea di base si congela prima di annunciare il cambiamento; se il valore è sensibile, si conserva una misura confrontabile (distanza o impronta) invece di perderlo. Dopo, si verifica dall'esterno, solo con letture anonime, e si ripete a 24 e a 48 h.
+9. **Risorse a turno.** Il lavoro pesante, uno dopo l'altro: soglia d'ingresso, sorveglianza, un taglio che uccide i processi figli e la verifica che non resti nulla in vita. Contano anche gli hook che lanciano test.
+10. **Nel dubbio, com'era.** Verdetti SÌ, NO o DUBBIO, con la loro fonte; il dubbio conserva lo stato precedente. Il revisore può alzare o abbassare il proprio rilievo, con prove.
+
 ---
 
 ## Fasi
@@ -136,6 +152,8 @@ prima di pubblicarlo.
 - L'edizione completa aggiunge la ripartizione dei file tra agenti, l'elenco di
   Safari/WebKit, la distribuzione con revisione su un altro dispositivo (fase 8 bis), la
   pubblicazione (fase 9) e il governo di più macchine e sessioni.
+- L'edizione completa aggiunge anche gli allegati delle regole brevi del team e i modelli 22 (migrazione dei
+  dati), 23 (passaggio di consegne o cambio di macchina) e 24 (checklist della privacy).
 
 ---
 
@@ -153,4 +171,4 @@ prima di pubblicarlo.
 | `modelli/21-rendiconto.md` | Regola 2: chiusura di ogni incarico con l'ordine alla lettera, «Prova:», ciò che non è stato fatto e ciò che non è stato verificato |
 
 ---
-Questa è l'**edizione base** del Metodo Speccy81. L'**edizione completa** aggiunge le ondate di ricerca in parallelo, l'audit unico, la distribuzione e la QA su un altro dispositivo, la pubblicazione, il coordinamento di più macchine, i validatori e 21 modelli. Con licenza di LV-Webstudio: https://lv-webstudio.com/
+Questa è l'**edizione base** del Metodo Speccy81. L'**edizione completa** aggiunge le ondate di ricerca in parallelo, l'audit unico, la distribuzione e la QA su un altro dispositivo, la pubblicazione, il coordinamento di più macchine, i validatori e 24 modelli. Con licenza di LV-Webstudio: https://lv-webstudio.com/

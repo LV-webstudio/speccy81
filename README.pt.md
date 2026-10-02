@@ -14,12 +14,12 @@ Esta é a **edição básica**: livre e pública, com uma skill, um guia curto e
 |---|---|---|
 | Licença | Pública: CC BY 4.0 (guia, SKILL e modelos) + MIT (scripts); ver `NOTICE` | Proprietária, da LV-Webstudio |
 | Percurso | Um percurso leve de cinco passos para extensões e projetos pequenos | Fases 0–9 mais a 8 bis |
-| Modelos | 8 (01, 06, 09, 10, 13, 15, 20 e 21) | 21 |
-| Regras de ouro | As 13, em versão curta | As 13 completas, mais as melhorias de eficiência E1–E15 |
+| Modelos | 8 (01, 06, 09, 10, 13, 15, 20 e 21) | 24 |
+| Regras de ouro | As 13, em versão curta, e as 10 regras curtas da equipa | As 13 completas, as 10 regras curtas da equipa com os seus anexos e as melhorias de eficiência E1–E15 |
 | Investigação e auditoria | — | Vagas de investigação em paralelo e uma auditoria única |
 | Validador de conhecimento | — | Sim |
 | Implementação e lançamento | — | Implementação e QA noutro dispositivo, e publicação |
-| Governo e segurança | Regra 13 em curto, «Prova:» em todo o resultado, incidentes (20) e prestação de contas (21) | Além disso: governo de várias equipas (19), transferir um segredo e rodar uma chave exposta |
+| Governo e segurança | Regra 13 em curto, «Prova:» em todo o resultado, incidentes (20) e prestação de contas (21) | Além disso: governo de várias equipas (19), transferir um segredo, rodar uma chave exposta, migração de dados (22), passagem de serviço ou mudança de máquina (23) e lista de privacidade (24) |
 | Várias máquinas | Uma só sessão ou máquina; para várias sessões com regras mínimas, Wassup Básica | Governo completo e coordenação opcional com o Wassup |
 
 ## Os cinco passos

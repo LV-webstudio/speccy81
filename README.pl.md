@@ -14,12 +14,12 @@ To jest **edycja podstawowa**: wolna i publiczna, ze skillem, krótkim przewodni
 |---|---|---|
 | Licencja | Publiczna: CC BY 4.0 (przewodnik, SKILL i szablony) + MIT (skrypty); zobacz `NOTICE` | Własnościowa, LV-Webstudio |
 | Ścieżka | Lekka ścieżka w pięciu krokach dla rozszerzeń i małych projektów | Fazy 0–9 oraz 8 bis |
-| Szablony | 8 (01, 06, 09, 10, 13, 15, 20 i 21) | 21 |
-| Złote zasady | 13, w skrócie | 13 w pełnej wersji oraz usprawnienia wydajności E1–E15 |
+| Szablony | 8 (01, 06, 09, 10, 13, 15, 20 i 21) | 24 |
+| Złote zasady | 13, w skrócie, i 10 krótkich zasad zespołu | 13 w pełnej wersji, 10 krótkich zasad zespołu z załącznikami oraz usprawnienia wydajności E1–E15 |
 | Badania i audyt | — | Równoległe fale badań i jeden audyt |
 | Walidator wiedzy | — | Tak |
 | Wdrożenie i premiera | — | Wdrożenie i QA na innym urządzeniu oraz publikacja |
-| Zarządzanie i bezpieczeństwo | Zasada 13 w skrócie, „Dowód:” przy każdym wyniku, incydenty (20) i rozliczenie (21) | Dodatkowo: zarządzanie wieloma zespołami (19), przenoszenie sekretu i rotacja ujawnionego klucza |
+| Zarządzanie i bezpieczeństwo | Zasada 13 w skrócie, „Dowód:” przy każdym wyniku, incydenty (20) i rozliczenie (21) | Dodatkowo: zarządzanie wieloma zespołami (19), przenoszenie sekretu, rotacja ujawnionego klucza, migracja danych (22), przekazanie lub zmiana maszyny (23) i lista kontrolna prywatności (24) |
 | Kilka zespołów | Jedna sesja lub jeden zespół; do kilku sesji z minimalnymi zasadami służy Wassup Podstawowa | Pełne zarządzanie i opcjonalna koordynacja z Wassup |
 
 ## Pięć kroków

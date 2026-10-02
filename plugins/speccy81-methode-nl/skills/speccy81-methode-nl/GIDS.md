@@ -1,5 +1,5 @@
 # Speccy81-methode · basiseditie
-LV-Webstudio — versie 1.6 (2026-10-01)
+LV-Webstudio — versie 1.7 (2026-10-02)
 
 Een gids om uitbreidingen en kleine projecten (1 tot 2 dagen op één
 machine) met dezelfde zorgvuldigheid op te zetten als een groot project: eerst begrijpen wat er is, zien wat
@@ -75,6 +75,22 @@ project kan groeien zonder iets te hernummeren.
 5. Geheimen komen nooit in berichten of in het geheugen.
 <!-- regla-13-corta:fin -->
 
+## Korte teamregels (1.7)
+
+Tien principes van één regel voor werk met productie, met meerdere sessies of met gevoelige gegevens. Ze vervangen de
+gouden regels niet: staat een principe al in een van die regels, dan wordt die geciteerd. Geen enkel principe voegt een vaste stap aan een opdracht toe.
+
+1. **De beslissing is aan wie beslist** (zie regels 9 en 13). Een doorgestuurde of door een andere sessie geciteerde beslissing (uit de tweede hand) geldt nooit als goedkeuring: alleen het geschreven ja van de gebruiker telt, in het venster van wie uitvoert.
+2. **Een controle wordt niet omzeild** (zie regel 13). Meld wat er is geprobeerd en waarom; wat niet is gecontroleerd blijft «niet gecontroleerd», en de gebruiker beslist.
+3. **Minimale gegevens, ook bij de uitvoer.** Leesacties op productie declareren hun velden. Console, rapporten en logs bevatten nooit waarden, alleen id's, tellingen of hashes; is de waarde nodig, dan gaat die in een lokaal bestand voor de gebruiker.
+4. **Controleer de uitvoer, niet alleen de invoer.** Wat openbaar is, toont het minimum van het gegeven en de toestemming ervoor. Vraag, voordat je op de serverregels vertrouwt, wie schrijft, met welke inloggegevens en met welke standaardwaarde iets nieuws ontstaat (beslist op de server).
+5. **Eén beslispunt.** Over een gevoelig gegeven wordt op één plek beslist, met een test die faalt als iemand het buiten die plek leest.
+6. **Zoek vóór een algemene instructie waar die iets erger maakt.** Zoek vóór het toepassen de gevallen waarin die zou schaden wat beschermd moet worden, en vraag het na.
+7. **Wat wordt geleverd, is controleerbaar** (breidt regel 2 uit). Elke levering tussen sessies draagt haar SHA-256-hash, en alleen wat overeenkomt met wat is beoordeeld, wordt uitgevoerd.
+8. **Vooraf en achteraf, van buitenaf.** De nulmeting wordt bevroren voordat de wijziging wordt aangekondigd; is de waarde gevoelig, dan wordt een vergelijkbare maat (afstand of hash) bewaard in plaats van die kwijt te raken. Daarna wordt van buitenaf gecontroleerd, alleen met anonieme leesacties, en herhaald na 24 en na 48 uur.
+9. **Zwaar werk om de beurt.** Het een na het ander: een instapdrempel, bewaking, een stop die de kindprocessen beëindigt en de controle dat er niets meer draait. Hooks die tests starten tellen ook mee.
+10. **Bij twijfel zoals het was.** Oordelen JA, NEE of TWIJFEL, elk met de bron; twijfel behoudt de vorige toestand. De beoordelaar mag de eigen bevinding verhogen of verlagen, met bewijs.
+
 ---
 
 ## Fasen
@@ -137,6 +153,8 @@ wordt gepubliceerd.
 - De volledige editie voegt de verdeling van bestanden tussen agenten toe, de
   Safari/WebKit-lijst, de uitrol met controle op een ander apparaat (fase 8 bis), de
   publicatie (fase 9) en het bestuur van meerdere machines en sessies.
+- De volledige editie voegt ook de bijlagen van de korte teamregels toe en de sjablonen 22 (datamigratie),
+  23 (overdracht of machinewissel) en 24 (privacychecklist).
 
 ---
 
@@ -154,4 +172,4 @@ wordt gepubliceerd.
 | `sjablonen/21-rekenschap.md` | Regel 2: afsluiting van elke opdracht met de letterlijke instructie, «Bewijs:», wat niet gedaan is en wat niet gecontroleerd is |
 
 ---
-Dit is de **basiseditie** van de Speccy81-methode. De **volledige editie** voegt toe: onderzoeksgolven in parallel, de enkele audit, uitrol en QA op een ander apparaat, publicatie, coördinatie van meerdere machines, de validators en 21 sjablonen. Licentie van LV-Webstudio: https://lv-webstudio.com/
+Dit is de **basiseditie** van de Speccy81-methode. De **volledige editie** voegt toe: onderzoeksgolven in parallel, de enkele audit, uitrol en QA op een ander apparaat, publicatie, coördinatie van meerdere machines, de validators en 24 sjablonen. Licentie van LV-Webstudio: https://lv-webstudio.com/

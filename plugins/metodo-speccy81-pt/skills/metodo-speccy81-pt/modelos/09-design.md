@@ -24,6 +24,8 @@ pelo código com regras; a IA só explica.
 | Fase | Conteúdo | Marco de saída (teste real) |
 |---|---|---|
 
+**Critérios de aceitação** (antes de começar): cada um com números e pressupostos explícitos (máquina, dados, rede), marcado «proposta» até ser medido na máquina real.
+
 ## 5. Plano de testes de campo (resumo e prioridade; detalhe com o modelo 13)
 
 ## 6. Decisões do utilizador

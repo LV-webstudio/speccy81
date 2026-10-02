@@ -1,5 +1,5 @@
 # Speccy81-Methode · Basis-Edition
-LV-Webstudio — Version 1.6 (01.10.2026)
+LV-Webstudio — Version 1.7 (02.10.2026)
 
 Ein Leitfaden, um Erweiterungen und kleine Projekte (1 bis 2 Tage und ein einziger
 Rechner) mit derselben Sorgfalt wie ein großes aufzusetzen: zuerst verstehen, was es gibt, sehen, was
@@ -75,6 +75,22 @@ Projekt wachsen kann, ohne etwas neu zu nummerieren.
 5. Geheimnisse gehören nie in Nachrichten oder ins Gedächtnis.
 <!-- regla-13-corta:fin -->
 
+## Kurzregeln des Teams (1.7)
+
+Zehn einzeilige Grundsätze für die Arbeit mit der Produktion, mit mehreren Sitzungen oder mit sensiblen Daten. Sie
+ersetzen die goldenen Regeln nicht: Steht ein Grundsatz schon in einer, wird sie zitiert. Keiner fügt einem Auftrag einen festen Schritt hinzu.
+
+1. **Die Entscheidung trifft, wer entscheidet** (siehe Regeln 9 und 13). Eine weitergeleitete oder von einer anderen Sitzung zitierte Entscheidung (aus zweiter Hand) gilt nie als Freigabe: Es zählt nur das schriftliche Ja des Nutzers im Fenster der ausführenden Sitzung.
+2. **Eine Kontrolle wird nicht umgangen** (siehe Regel 13). Es wird gemeldet, was versucht wurde und warum; was nicht geprüft wurde, bleibt «ungeprüft», und der Nutzer entscheidet.
+3. **Minimale Daten, auch bei der Ausgabe.** Lesezugriffe auf die Produktion deklarieren ihre Felder. Konsole, Berichte und Protokolle enthalten nie Werte, nur IDs, Zählungen oder Hashes; wird der Wert gebraucht, kommt er in eine lokale Datei für den Nutzer.
+4. **Die Ausgabe kontrollieren, nicht nur die Eingabe.** Was öffentlich ist, zeigt das Minimum aus der Angabe und ihrer Freigabe. Bevor man den Serverregeln vertraut, fragt man, wer schreibt, mit welchen Zugangsdaten und mit welchem Standardwert Neues angelegt wird (auf dem Server entschieden).
+5. **Ein einziger Entscheidungspunkt.** Über eine sensible Angabe wird an genau einer Stelle entschieden, mit einem Test, der fehlschlägt, wenn jemand sie außerhalb dieser Stelle liest.
+6. **Vor einem allgemeinen Befehl suchen, wo er schadet.** Vor der Anwendung werden die Fälle gesucht, in denen er dem schaden würde, was geschützt werden soll, und es wird nachgefragt.
+7. **Was geliefert wird, ist überprüfbar** (erweitert Regel 2). Jede Lieferung zwischen Sitzungen trägt ihren SHA-256-Hash, und ausgeführt wird nur, was mit dem Geprüften übereinstimmt.
+8. **Vorher und nachher, von außen.** Die Baseline (Ausgangsmessung) wird eingefroren, bevor die Änderung angekündigt wird; ist der Wert sensibel, wird ein vergleichbares Maß (Abstand oder Hash) aufbewahrt, statt ihn zu verlieren. Danach wird von außen geprüft, nur mit anonymen Lesezugriffen, und nach 24 und nach 48 h wiederholt.
+9. **Ressourcen der Reihe nach.** Schwere Arbeit eins nach dem anderen: Eintrittsschwelle, Überwachung, ein Abbruch, der die Kindprozesse beendet, und die Prüfung, dass nichts mehr läuft. Hooks, die Tests starten, zählen auch.
+10. **Im Zweifel wie zuvor.** Urteile JA, NEIN oder ZWEIFEL, jeweils mit Quelle; der Zweifel bewahrt den vorherigen Zustand. Die prüfende Person darf ihren eigenen Befund hoch- oder herabstufen, mit Belegen.
+
 ---
 
 ## Phasen
@@ -136,6 +152,8 @@ getestet.
 - Die vollständige Edition ergänzt die Verteilung der Dateien auf Agenten, die Liste für
   Safari/WebKit, das Deployment mit Prüfung auf einem anderen Gerät (Phase 8 bis), die
   Veröffentlichung (Phase 9) und die Steuerung mehrerer Rechner und Sitzungen.
+- Die vollständige Edition ergänzt außerdem die Anhänge der Kurzregeln des Teams und die Vorlagen 22
+  (Datenmigration), 23 (Übergabe oder Rechnerwechsel) und 24 (Datenschutz-Checkliste).
 
 ---
 
@@ -153,4 +171,4 @@ getestet.
 | `vorlagen/21-rechenschaft.md` | Regel 2: Abschluss jedes Auftrags mit dem wörtlichen Befehl, «Nachweis:», dem Nicht-Erledigten und dem Ungeprüften |
 
 ---
-Dies ist die **Basis-Edition** der Speccy81-Methode. Die **vollständige Edition** ergänzt die parallelen Recherchewellen, das einzige Audit, das Deployment und die QA auf einem anderen Gerät, die Veröffentlichung, die Koordination mehrerer Rechner, die Validatoren und 21 Vorlagen. Lizenziert von LV-Webstudio: https://lv-webstudio.com/
+Dies ist die **Basis-Edition** der Speccy81-Methode. Die **vollständige Edition** ergänzt die parallelen Recherchewellen, das einzige Audit, das Deployment und die QA auf einem anderen Gerät, die Veröffentlichung, die Koordination mehrerer Rechner, die Validatoren und 24 Vorlagen. Lizenziert von LV-Webstudio: https://lv-webstudio.com/

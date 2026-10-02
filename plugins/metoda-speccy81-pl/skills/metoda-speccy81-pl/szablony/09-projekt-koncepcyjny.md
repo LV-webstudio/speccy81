@@ -24,6 +24,8 @@ oblicza kod według reguł; AI tylko wyjaśnia.
 | Faza | Zawartość | Kamień milowy zakończenia (prawdziwy test) |
 |---|---|---|
 
+**Kryteria akceptacji** (przed rozpoczęciem): każde z liczbami i jawnymi założeniami (maszyna, dane, sieć), oznaczone jako „propozycja”, dopóki nie zostanie zmierzone na prawdziwej maszynie.
+
 ## 5. Plan testów terenowych (streszczenie i priorytet; szczegóły z szablonem 13)
 
 ## 6. Decyzje użytkownika

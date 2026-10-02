@@ -24,6 +24,8 @@ Code mit Regeln; die KI erklärt nur.
 | Phase | Inhalt | Abschlussmeilenstein (echter Test) |
 |---|---|---|
 
+**Abnahmekriterien** (vor dem Start): jedes mit Zahlen und ausdrücklichen Annahmen (Rechner, Daten, Netz), als «Vorschlag» markiert, bis es auf dem echten Rechner gemessen ist.
+
 ## 5. Plan der Feldtests (Zusammenfassung und Priorität; Details mit Vorlage 13)
 
 ## 6. Entscheidungen des Nutzers

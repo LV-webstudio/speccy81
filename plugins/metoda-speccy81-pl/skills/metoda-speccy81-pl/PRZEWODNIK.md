@@ -1,5 +1,5 @@
 # Metoda Speccy81 · edycja podstawowa
-LV-Webstudio — wersja 1.6 (2026-10-01)
+LV-Webstudio — wersja 1.7 (2026-10-02)
 
 Przewodnik do zakładania rozszerzeń i małych projektów (od 1 do 2 dni na jednym
 komputerze) z takim samym rygorem jak duży projekt: najpierw zrozumieć, co jest, zobaczyć, czego
@@ -75,6 +75,22 @@ projekt może się rozrosnąć bez zmiany numeracji.
 5. Sekrety nigdy nie trafiają do wiadomości ani do pamięci.
 <!-- regla-13-corta:fin -->
 
+## Krótkie zasady zespołu (1.7)
+
+Dziesięć jednowierszowych zasad do pracy z produkcją, z kilkoma sesjami lub z danymi wrażliwymi. Nie zastępują
+złotych zasad: jeśli dana zasada już jest w jednej z nich, przywołuje się ją. Żadna nie dodaje stałego kroku do każdego zlecenia.
+
+1. **Decyzja należy do tego, kto decyduje** (zob. zasady 9 i 13). Decyzja przekazana dalej lub zacytowana przez inną sesję (z drugiej ręki) nigdy nie jest zgodą: liczy się tylko pisemne „tak” użytkownika w oknie sesji, która wykonuje.
+2. **Kontroli się nie obchodzi** (zob. zasada 13). Zgłasza się, co próbowano i dlaczego; to, czego nie sprawdzono, pozostaje „niesprawdzone”, a decyduje użytkownik.
+3. **Minimum danych, także na wyjściu.** Odczyty z produkcji deklarują swoje pola. Konsola, raporty i dzienniki nigdy nie zawierają wartości, tylko identyfikatory, liczniki lub skróty; jeśli wartość jest potrzebna, trafia do lokalnego pliku dla użytkownika.
+4. **Kontroluj wyjście, nie tylko wejście.** To, co publiczne, pokazuje minimum z danej i jej zgody. Zanim zaufa się regułom serwera, trzeba zapytać, kto zapisuje, z jakimi danymi uwierzytelniającymi i z jaką wartością domyślną powstaje to, co nowe (decyduje serwer).
+5. **Jeden punkt decyzji.** O danej wrażliwej decyduje się w jednym miejscu, z testem, który nie przechodzi, jeśli ktoś odczyta ją poza tym miejscem.
+6. **Przed poleceniem ogólnym sprawdź, gdzie pogarsza sprawę.** Przed jego zastosowaniem szuka się przypadków, w których zaszkodziłoby temu, co ma chronić, i pyta się.
+7. **To, co się przekazuje, da się zweryfikować** (rozszerza zasadę 2). Każde przekazanie między sesjami ma swój skrót SHA-256 i uruchamia się tylko to, co zgadza się z tym, co sprawdzono.
+8. **Przed i po, z zewnątrz.** Pomiar bazowy (baseline) zamraża się przed ogłoszeniem zmiany; jeśli wartość jest wrażliwa, zachowuje się porównywalną miarę (odległość lub skrót), zamiast ją tracić. Potem sprawdza się z zewnątrz, wyłącznie anonimowymi odczytami, i powtarza po 24 i po 48 h.
+9. **Zasoby po kolei.** Ciężka praca jedna po drugiej: próg wejścia, nadzór, odcięcie, które zabija procesy potomne, i sprawdzenie, że nic nie zostało uruchomione. Hooki uruchamiające testy też się liczą.
+10. **W razie wątpliwości – jak było.** Werdykty TAK, NIE lub WĄTPLIWOŚĆ, każdy ze źródłem; wątpliwość zachowuje poprzedni stan. Recenzent może podnieść lub obniżyć własne ustalenie, z dowodami.
+
 ---
 
 ## Fazy
@@ -136,6 +152,8 @@ przed publikacją.
 - Edycja pełna dodaje podział plików między agentów, listę
   Safari/WebKit, wdrożenie z przeglądem na innym urządzeniu (faza 8 bis),
   publikację (faza 9) oraz zarządzanie wieloma zespołami i sesjami.
+- Edycja pełna dodaje też załączniki krótkich zasad zespołu oraz szablony 22 (migracja danych), 23 (przekazanie
+  lub zmiana maszyny) i 24 (lista kontrolna prywatności).
 
 ---
 
@@ -153,4 +171,4 @@ przed publikacją.
 | `szablony/21-rozliczenie.md` | Zasada 2: zamknięcie każdego zlecenia z dosłownym poleceniem, „Dowód:”, tym, czego nie zrobiono, i tym, czego nie sprawdzono |
 
 ---
-To jest **edycja podstawowa** Metody Speccy81. **Edycja pełna** dodaje równoległe fale badań, jeden audyt, wdrożenie i QA na innym urządzeniu, publikację, koordynację kilku komputerów, walidatory i 21 szablonów. Licencja LV-Webstudio: https://lv-webstudio.com/
+To jest **edycja podstawowa** Metody Speccy81. **Edycja pełna** dodaje równoległe fale badań, jeden audyt, wdrożenie i QA na innym urządzeniu, publikację, koordynację kilku komputerów, walidatory i 24 szablonów. Licencja LV-Webstudio: https://lv-webstudio.com/

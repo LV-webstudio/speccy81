@@ -12,7 +12,7 @@ Gedaan:
 Bewijs: <commit, SHA-256-hash, pad, logregel of uitvoer van een opdracht>
 Bewijs: <één per gedaan ding; mag met opsommingsteken: «- Bewijs: …»>
 Niet gedaan: <wat niet is gedaan> — <waarom (toestemmingen geblokkeerd, een gegeven ontbreekt, buiten bereik)>
-Zonder controle: <wat wordt beweerd zonder het te hebben gecontroleerd> | niets
+Niet gecontroleerd: <wat wordt beweerd zonder het te hebben gecontroleerd> | niets
 ```
 
 ## Regels
@@ -22,7 +22,7 @@ Zonder controle: <wat wordt beweerd zonder het te hebben gecontroleerd> | niets
   `Bewijs:` in hetzelfde onderdeel zijn een waarschuwing.
 - Een bewijs is iets wat een ander opnieuw kan bekijken: «ik heb het gezien» is geen bewijs; «de app heeft het opgeslagen» ook niet, als het niet
   op de bestemming is teruggelezen.
-- Wat niet kon worden bewezen, wordt gezegd bij «Zonder controle», met wie het moet doen (bijv. «echte iPhone: wacht op
+- Wat niet kon worden bewezen, wordt gezegd bij «Niet gecontroleerd», met wie het moet doen (bijv. «echte iPhone: wacht op
   apparaat»).
 - Als er achteraf een fout blijkt in iets wat is verantwoord, volgt een **erratum** met dezelfde kop en «Corrigeert: <datum>».
 
@@ -35,5 +35,5 @@ Gedaan:
 Bewijs: commit 4f2a9c1
 Bewijs: `kennis-valideren.sh` → «0 kapotte links»
 Niet gedaan: de index van de Engelse README — niet van deze sessie (eigenaar: review)
-Zonder controle: niets
+Niet gecontroleerd: niets
 ```

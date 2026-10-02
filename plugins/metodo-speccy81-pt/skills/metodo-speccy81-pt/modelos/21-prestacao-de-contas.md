@@ -12,7 +12,7 @@ Feito:
 Prova: <commit, impressão digital SHA-256, caminho, linha de registo ou saída de um comando>
 Prova: <uma por cada coisa feita; vale com marcador: «- Prova: …»>
 Não feito: <o que não se fez> — <porquê (bloqueio de permissões, falta um dado, fora do âmbito)>
-Por verificar: <o que se afirma sem o ter verificado> | nada
+Não verificado: <o que se afirma sem o ter verificado> | nada
 ```
 
 ## Regras
@@ -22,7 +22,7 @@ Por verificar: <o que se afirma sem o ter verificado> | nada
   `Prova:` no mesmo ponto são um aviso.
 - Uma prova é algo que outro pode voltar a ver: «vi-o» não é prova; «guardou-o a app» também não, se não
   se releu no destino.
-- O que não se pôde provar diz-se em «Por verificar», com quem o deve fazer (p. ex. «iPhone real: pendente de
+- O que não se pôde provar diz-se em «Não verificado», com quem o deve fazer (p. ex. «iPhone real: pendente de
   dispositivo»).
 - Se depois aparecer um erro em algo prestado, **errata** com o mesmo cabeçalho e «Corrige a: <data>».
 
@@ -35,5 +35,5 @@ Feito:
 Prova: commit 4f2a9c1
 Prova: `validar-conhecimento.sh` → «0 ligações quebradas»
 Não feito: o índice do README inglês — não é desta sessão (dono: revisão)
-Por verificar: nada
+Não verificado: nada
 ```

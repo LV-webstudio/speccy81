@@ -14,12 +14,12 @@ Dies ist die **Basis-Edition**: frei und öffentlich, mit einem Skill, einem kur
 |---|---|---|
 | Lizenz | Öffentlich: CC BY 4.0 (Leitfaden, SKILL und Vorlagen) + MIT (Skripte); siehe `NOTICE` | Proprietär, LV-Webstudio |
 | Weg | Ein leichter Weg in fünf Schritten für Erweiterungen und kleine Projekte | Phasen 0–9 plus 8 bis |
-| Vorlagen | 8 (01, 06, 09, 10, 13, 15, 20 und 21) | 21 |
-| Goldene Regeln | Die 13, in Kurzform | Die 13 vollständig, plus die Effizienzverbesserungen E1–E15 |
+| Vorlagen | 8 (01, 06, 09, 10, 13, 15, 20 und 21) | 24 |
+| Goldene Regeln | Die 13, in Kurzform, und die 10 Kurzregeln des Teams | Die 13 vollständig, die 10 Kurzregeln des Teams mit ihren Anhängen und die Effizienzverbesserungen E1–E15 |
 | Recherche und Audit | — | Parallele Recherchewellen und ein einziges Audit |
 | Wissensvalidator | — | Ja |
 | Deployment und Launch | — | Deployment und QA auf einem anderen Gerät, und Veröffentlichung |
-| Steuerung und Sicherheit | Regel 13 in Kurzform, «Nachweis:» bei jedem Ergebnis, Vorfälle (20) und Rechenschaft (21) | Zusätzlich: Steuerung mehrerer Teams (19), ein Geheimnis übertragen und einen offengelegten Schlüssel rotieren |
+| Steuerung und Sicherheit | Regel 13 in Kurzform, «Nachweis:» bei jedem Ergebnis, Vorfälle (20) und Rechenschaft (21) | Zusätzlich: Steuerung mehrerer Teams (19), ein Geheimnis übertragen, einen offengelegten Schlüssel rotieren, Datenmigration (22), Übergabe oder Rechnerwechsel (23) und Datenschutz-Checkliste (24) |
 | Mehrere Rechner | Eine einzige Sitzung oder ein Rechner; für mehrere Sitzungen mit Mindestregeln Wassup Basis | Vollständige Steuerung und optionale Koordination mit Wassup |
 
 ## Die fünf Schritte

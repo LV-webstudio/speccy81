@@ -1,5 +1,5 @@
 # Método Speccy81 · edição básica
-LV-Webstudio — versão 1.6 (01-10-2026)
+LV-Webstudio — versão 1.7 (02-10-2026)
 
 Um guia para montar ampliações e projetos pequenos (de 1 a 2 dias e uma só
 máquina) com o mesmo rigor de um grande: perceber primeiro o que existe, ver o que
@@ -75,6 +75,22 @@ projeto possa crescer sem renumerar nada.
 5. Os segredos nunca vão em mensagens nem na memória.
 <!-- regla-13-corta:fin -->
 
+## Regras curtas da equipa (1.7)
+
+Dez princípios de uma linha para trabalhar com produção, com várias sessões ou com dados sensíveis. Não substituem
+as regras de ouro: se um princípio já está numa delas, cita-se. Nenhum acrescenta um passo fixo a cada encargo.
+
+1. **A decisão é de quem decide** (ver regras 9 e 13). Uma decisão reencaminhada ou citada por outra sessão (em segunda mão) nunca vale como aprovação: só vale o sim escrito do utilizador, na janela de quem executa.
+2. **Não se contorna um controlo** (ver regra 13). Informa-se o que se tentou e porquê; o que não foi verificado fica «não verificado» e decide o utilizador.
+3. **Dado mínimo, também à saída.** As leituras de produção declaram os seus campos. Consola, relatórios e registos nunca levam valores, só ids, contagens ou hashes (impressões digitais); o valor, se for preciso, vai num ficheiro local para o utilizador.
+4. **Controla a saída, não só a entrada.** O que é público mostra o mínimo entre o dado e a sua autorização. Antes de confiar nas regras do servidor, pergunta-se quem escreve, com que credencial e com que valor por omissão nasce o que é novo (decidido no servidor).
+5. **Um só ponto de decisão.** Um dado sensível decide-se num único sítio, com um teste que falhe se alguém o ler fora dele.
+6. **Antes de uma ordem geral, procura onde piora.** Antes de a aplicar, procuram-se os casos em que prejudicaria o que se quer proteger, e pergunta-se.
+7. **O que se entrega pode ser verificado** (amplia a regra 2). Toda a entrega entre sessões leva o seu hash SHA-256, e só se executa o que coincide com o que foi revisto.
+8. **Antes e depois, de fora.** A linha de base congela-se antes de avisar da mudança; se o valor for sensível, guarda-se uma medida comparável (distância ou hash) em vez de o perder. Depois verifica-se de fora, só com leituras anónimas, e repete-se às 24 e às 48 h.
+9. **Recursos por turnos.** O trabalho pesado, um a seguir ao outro: limiar de entrada, vigilância, um corte que mata os processos filhos e a verificação de que nada fica vivo. Os hooks que lançam testes também contam.
+10. **Na dúvida, como estava.** Veredictos SIM, NÃO ou DÚVIDA, com a sua fonte; a dúvida conserva o estado anterior. O revisor pode subir ou baixar a sua própria constatação, com provas.
+
 ---
 
 ## Fases
@@ -136,6 +152,8 @@ antes de a publicar.
 - A edição completa acrescenta a repartição de ficheiros entre agentes, a lista de
   Safari/WebKit, a implantação com revisão noutro dispositivo (fase 8 bis), a
   publicação (fase 9) e o governo de várias equipas e sessões.
+- A edição completa acrescenta também os anexos das regras curtas da equipa e os modelos 22 (migração de
+  dados), 23 (passagem de serviço ou mudança de máquina) e 24 (lista de privacidade).
 
 ---
 
@@ -153,4 +171,4 @@ antes de a publicar.
 | `modelos/21-prestacao-de-contas.md` | Regra 2: fecho de cada encargo com a ordem literal, «Prova:», o não feito e o não verificado |
 
 ---
-Esta é a **edição básica** do Método Speccy81. A **edição completa** acrescenta as ondas de investigação em paralelo, a auditoria única, a implantação e a QA noutro dispositivo, a publicação, a coordenação de várias máquinas, os validadores e 21 modelos. Com licença da LV-Webstudio: https://lv-webstudio.com/
+Esta é a **edição básica** do Método Speccy81. A **edição completa** acrescenta as ondas de investigação em paralelo, a auditoria única, a implantação e a QA noutro dispositivo, a publicação, a coordenação de várias máquinas, os validadores e 24 modelos. Com licença da LV-Webstudio: https://lv-webstudio.com/

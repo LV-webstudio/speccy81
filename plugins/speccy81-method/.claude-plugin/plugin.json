@@ -1,7 +1,7 @@
 {
   "name": "speccy81-method",
   "displayName": "Speccy81 Method",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "The Speccy81 Method (LV-Webstudio) for taking a project from idea to launch: research in parts, verified knowledge, audit, design approved before coding, field tests and publication. From-scratch mode and existing-project mode, with templates and a validator.",
   "icon": "./.claude-plugin/icon.png",
   "author": {

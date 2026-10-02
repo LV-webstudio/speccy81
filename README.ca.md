@@ -14,12 +14,12 @@ Aquesta és l'**edició bàsica**: lliure i pública, amb una skill, una guia cu
 |---|---|---|
 | Llicència | Pública: CC BY 4.0 (guia, SKILL i plantilles) + MIT (scripts); vegeu `NOTICE` | Propietària, de LV-Webstudio |
 | Recorregut | Un recorregut lleuger de cinc passos per a ampliacions i projectes petits | Fases 0–9 més la 8 bis |
-| Plantilles | 8 (01, 06, 09, 10, 13, 15, 20 i 21) | 21 |
-| Regles d'or | Les 13, en curt | Les 13 senceres, més les millores d'eficiència E1–E15 |
+| Plantilles | 8 (01, 06, 09, 10, 13, 15, 20 i 21) | 24 |
+| Regles d'or | Les 13, en curt, i les 10 regles curtes de l'equip | Les 13 senceres, les 10 regles curtes de l'equip amb els seus annexos i les millores d'eficiència E1–E15 |
 | Recerca i auditoria | — | Onades de recerca en paral·lel i una auditoria única |
 | Validador de coneixement | — | Sí |
 | Desplegament i llançament | — | Desplegament i QA en un altre dispositiu, i publicació |
-| Govern i seguretat | Regla 13 en curt, «Prova:» en tot resultat, incidents (20) i rendició de comptes (21) | A més: govern de diverses màquines (19), traslladar un secret i rotar una clau exposada |
+| Govern i seguretat | Regla 13 en curt, «Prova:» en tot resultat, incidents (20) i rendició de comptes (21) | A més: govern de diverses màquines (19), traslladar un secret, rotar una clau exposada, migració de dades (22), relleu o canvi de màquina (23) i llista de privacitat (24) |
 | Diverses màquines | Una sola sessió o màquina; per a diverses sessions amb regles mínimes, Wassup Bàsica | Govern complet i coordinació opcional amb Wassup |
 
 ## Els cinc passos

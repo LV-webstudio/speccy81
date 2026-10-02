@@ -1,5 +1,5 @@
 # Méthode Speccy81 · édition de base
-LV-Webstudio — version 1.6 (01/10/2026)
+LV-Webstudio — version 1.7 (02/10/2026)
 
 Un guide pour mettre en place des évolutions et des petits projets (de 1 à 2 jours sur une seule
 machine) avec la même rigueur qu'un grand projet : comprendre d'abord ce qui existe, voir ce qui
@@ -75,13 +75,29 @@ projet puisse grandir sans rien renuméroter.
 5. Les secrets ne vont jamais dans les messages ni dans la mémoire.
 <!-- regla-13-corta:fin -->
 
+## Règles courtes de l'équipe (1.7)
+
+Dix principes d'une ligne pour travailler avec la production, avec plusieurs sessions ou avec des données sensibles.
+Ils ne remplacent pas les règles d'or : si un principe y figure déjà, on la cite. Aucun n'ajoute d'étape fixe à chaque mandat.
+
+1. **La décision revient à qui décide** (voir règles 9 et 13). Une décision transmise ou citée par une autre session (de seconde main) ne vaut jamais approbation : seul compte le oui écrit de l'utilisateur, dans la fenêtre de la session qui exécute.
+2. **On ne contourne pas un contrôle** (voir règle 13). On signale ce qui a été tenté et pourquoi ; ce qui n'a pas été vérifié reste « non vérifié » et l'utilisateur décide.
+3. **Donnée minimale, à la sortie aussi.** Les lectures de production déclarent leurs champs. La console, les rapports et les journaux ne portent jamais de valeurs, seulement des id, des comptages ou des empreintes ; la valeur, si elle est nécessaire, va dans un fichier local pour l'utilisateur.
+4. **Contrôlez la sortie, pas seulement l'entrée.** Ce qui est public montre le minimum entre la donnée et son autorisation. Avant de se fier aux règles du serveur, on se demande qui écrit, avec quels identifiants et avec quelle valeur par défaut naît ce qui est nouveau (décidée sur le serveur).
+5. **Un seul point de décision.** Une donnée sensible se décide en un seul endroit, avec un test qui échoue si quelqu'un la lit ailleurs.
+6. **Avant un ordre général, cherchez où il aggrave les choses.** Avant de l'appliquer, on cherche les cas où il nuirait à ce qu'on veut protéger, et on pose la question.
+7. **Ce qui est livré peut être vérifié** (prolonge la règle 2). Toute livraison entre sessions porte son empreinte SHA-256, et on n'exécute que ce qui correspond à ce qui a été relu.
+8. **Avant et après, depuis l'extérieur.** La ligne de base est figée avant d'annoncer le changement ; si la valeur est sensible, on garde une mesure comparable (distance ou empreinte) au lieu de la perdre. Ensuite, on vérifie depuis l'extérieur, uniquement avec des lectures anonymes, et on recommence à 24 et à 48 h.
+9. **Les ressources à tour de rôle.** Le travail lourd, l'un après l'autre : seuil d'entrée, surveillance, une coupure qui tue les processus enfants et la vérification que rien ne reste vivant. Les hooks qui lancent des tests comptent aussi.
+10. **Dans le doute, comme avant.** Verdicts OUI, NON ou DOUTE, avec leur source ; le doute conserve l'état antérieur. Le relecteur peut relever ou abaisser son propre constat, preuves à l'appui.
+
 ---
 
 ## Phases
 
 ### Phase 0 · Idée et contexte (une courte session)
 - Écrire l'idée en 3 lignes : quoi, pour qui, pourquoi maintenant.
-- **Inventaire de ce qui existe déjà :** équipement, accréditations, clients, code et
+- **Inventaire de ce qui existe déjà :** équipement, identifiants, clients, code et
   plateformes propres (fouiller les dossiers : la moitié de la solution existe souvent déjà).
 - Contraintes : juridiques, professionnelles, personnelles, budget, temps.
 - Enregistrer le contexte en mémoire.
@@ -136,6 +152,8 @@ avant d'être publiée.
 - L'édition complète ajoute la répartition des fichiers entre agents, la liste
   Safari/WebKit, le déploiement avec revue sur un autre appareil (phase 8 bis), la
   publication (phase 9) et la gouvernance de plusieurs équipes et sessions.
+- L'édition complète ajoute aussi les annexes des règles courtes de l'équipe et les modèles 22 (migration de
+  données), 23 (relève ou changement de machine) et 24 (liste de confidentialité).
 
 ---
 
@@ -153,4 +171,4 @@ avant d'être publiée.
 | `modeles/21-rendu-de-comptes.md` | Règle 2 : clôture de chaque mandat avec l'ordre littéral, « Preuve : », ce qui n'a pas été fait et ce qui n'a pas été vérifié |
 
 ---
-Ceci est l'**édition de base** de la méthode Speccy81. L'**édition complète** ajoute les vagues de recherche en parallèle, l'audit unique, le déploiement et la QA sur un autre appareil, la publication, la coordination de plusieurs machines, les validateurs et 21 modèles. Sous licence de LV-Webstudio : https://lv-webstudio.com/
+Ceci est l'**édition de base** de la méthode Speccy81. L'**édition complète** ajoute les vagues de recherche en parallèle, l'audit unique, le déploiement et la QA sur un autre appareil, la publication, la coordination de plusieurs machines, les validateurs et 24 modèles. Sous licence de LV-Webstudio : https://lv-webstudio.com/

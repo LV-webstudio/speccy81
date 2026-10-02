@@ -24,6 +24,8 @@ par du code avec des règles ; l'IA se contente d'expliquer.
 | Phase | Contenu | Jalon de sortie (essai réel) |
 |---|---|---|
 
+**Critères d'acceptation** (avant de commencer) : chacun chiffré, avec des hypothèses explicites (machine, données, réseau), marqué « proposition » jusqu'à sa mesure sur la machine réelle.
+
 ## 5. Plan d'essais sur le terrain (résumé et priorité ; détail avec le modèle 13)
 
 ## 6. Décisions de l'utilisateur

@@ -14,12 +14,12 @@ Ceci est l'**édition de base** : libre et publique, avec une skill, un guide co
 |---|---|---|
 | Licence | Publique : CC BY 4.0 (guide, SKILL et modèles) + MIT (scripts) ; voir `NOTICE` | Propriétaire, LV-Webstudio |
 | Parcours | Un parcours léger en cinq étapes pour les extensions et les petits projets | Phases 0–9 plus la 8 bis |
-| Modèles | 8 (01, 06, 09, 10, 13, 15, 20 et 21) | 21 |
-| Règles d'or | Les 13, en version courte | Les 13 en entier, plus les améliorations d'efficacité E1–E15 |
+| Modèles | 8 (01, 06, 09, 10, 13, 15, 20 et 21) | 24 |
+| Règles d'or | Les 13, en version courte, et les 10 règles courtes de l'équipe | Les 13 en entier, les 10 règles courtes de l'équipe avec leurs annexes et les améliorations d'efficacité E1–E15 |
 | Recherche et audit | — | Vagues de recherche en parallèle et un audit unique |
 | Validateur de connaissances | — | Oui |
 | Déploiement et lancement | — | Déploiement et QA sur un autre appareil, et publication |
-| Gouvernance et sécurité | Règle 13 en version courte, « Preuve : » pour tout résultat, incidents (20) et rendu de comptes (21) | En plus : gouvernance de plusieurs équipes (19), transférer un secret et renouveler une clé exposée |
+| Gouvernance et sécurité | Règle 13 en version courte, « Preuve : » pour tout résultat, incidents (20) et rendu de comptes (21) | En plus : gouvernance de plusieurs équipes (19), transférer un secret, renouveler une clé exposée, migration de données (22), relève ou changement de machine (23) et liste de confidentialité (24) |
 | Plusieurs machines | Une seule session ou machine ; pour plusieurs sessions avec des règles minimales, Wassup de base | Gouvernance complète et coordination optionnelle avec Wassup |
 
 ## Les cinq étapes

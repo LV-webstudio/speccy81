@@ -1,5 +1,5 @@
 # Mètode Speccy81 · edició bàsica
-LV-Webstudio — versió 1.6 (2026-10-01)
+LV-Webstudio — versió 1.7 (2026-10-02)
 
 Guia per plantejar ampliacions i projectes petits (d'1 a 2 dies i una sola
 màquina) amb el mateix rigor que un de gran: entendre primer el que hi ha, veure què
@@ -75,6 +75,22 @@ projecte pugui créixer sense haver de renumerar res.
 5. Els secrets mai no van en missatges ni a la memòria.
 <!-- regla-13-corta:fin -->
 
+## Regles curtes de l'equip (1.7)
+
+Deu principis d'una línia per treballar amb producció, amb diverses sessions o amb dades sensibles. No substitueixen
+les regles d'or: si un principi ja és en una, se cita. Cap no afegeix un pas fix a cada encàrrec.
+
+1. **La decisió és de qui decideix** (vegeu les regles 9 i 13). Una decisió reenviada o citada per una altra sessió (de segona mà) mai no val com a aprovació: només val el sí escrit de l'usuari, a la finestra de qui executa.
+2. **No es rodeja un control** (vegeu la regla 13). S'informa de què s'ha intentat i per què; el que no s'ha comprovat queda «sense comprovar» i decideix l'usuari.
+3. **Dada mínima, també a la sortida.** Les lectures de producció declaren els seus camps. Consola, informes i registres mai no porten valors, només ids, recomptes o empremtes; el valor, si cal, va en un fitxer local per a l'usuari.
+4. **Controla la sortida, no només l'entrada.** El que és públic mostra el mínim entre la dada i la seva autorització. Abans de refiar-se de les regles del servidor, es pregunta qui escriu, amb quina credencial i amb quin valor per defecte neix el que és nou (decidit al servidor).
+5. **Un sol punt de decisió.** Una dada sensible es decideix en un únic lloc, amb una prova que falli si algú la llegeix fora d'aquest lloc.
+6. **Abans d'una ordre general, busca on empitjora.** Abans d'aplicar-la, es busquen els casos en què perjudicaria el que es vol protegir, i es pregunta.
+7. **El que es lliura es pot verificar** (amplia la regla 2). Tot lliurament entre sessions porta la seva empremta SHA-256, i només s'executa el que coincideix amb el que s'ha revisat.
+8. **Abans i després, des de fora.** La línia de base es congela abans d'avisar del canvi; si el valor és sensible, es guarda una mesura comparable (distància o empremta) en lloc de perdre'l. Després es comprova des de fora, només amb lectures anònimes, i es repeteix a les 24 i a les 48 h.
+9. **Recursos per torns.** La feina pesada, una darrere l'altra: llindar d'entrada, vigilància, un tall que mata els processos fills i comprovar que no queda res viu. Els ganxos que llancen proves també compten.
+10. **En dubte, com estava.** Veredictes SÍ, NO o DUBTE, amb la seva font; el dubte conserva l'estat anterior. El revisor pot pujar o rebaixar la seva pròpia troballa, amb proves.
+
 ---
 
 ## Fases
@@ -136,6 +152,8 @@ abans de publicar-la.
 - L'edició completa hi afegeix el repartiment de fitxers entre agents, la llista de
   Safari/WebKit, el desplegament amb revisió en un altre dispositiu (fase 8 bis), la
   publicació (fase 9) i el govern de diverses màquines i sessions.
+- L'edició completa hi afegeix també els annexos de les regles curtes de l'equip i les plantilles 22 (migració
+  de dades), 23 (relleu o canvi de màquina) i 24 (llista de privacitat).
 
 ---
 
@@ -153,4 +171,4 @@ abans de publicar-la.
 | `plantilles/21-rendicio-de-comptes.md` | Regla 2: tancament de cada encàrrec amb l'ordre literal, «Prova:», el que no s'ha fet i el que no s'ha comprovat |
 
 ---
-Aquesta és l'**edició bàsica** del Mètode Speccy81. L'**edició completa** hi afegeix les onades de recerca en paral·lel, l'auditoria única, el desplegament i la QA en un altre dispositiu, la publicació, la coordinació de diverses màquines, els validadors i 21 plantilles. Amb llicència de LV-Webstudio: https://lv-webstudio.com/
+Aquesta és l'**edició bàsica** del Mètode Speccy81. L'**edició completa** hi afegeix les onades de recerca en paral·lel, l'auditoria única, el desplegament i la QA en un altre dispositiu, la publicació, la coordinació de diverses màquines, els validadors i 24 plantilles. Amb llicència de LV-Webstudio: https://lv-webstudio.com/

@@ -24,6 +24,8 @@ calculated by code with rules; the AI only explains.
 | Phase | Contents | Exit milestone (real test) |
 |---|---|---|
 
+**Acceptance criteria** (before starting): each one with numbers and explicit assumptions (machine, data, network), marked «proposal» until it is measured on the real machine.
+
 ## 5. Field test plan (summary and priority; detail with template 13)
 
 ## 6. User decisions

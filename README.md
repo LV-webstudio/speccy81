@@ -14,12 +14,12 @@ This is the **basic edition**: free and public, with a skill, a short guide and 
 |---|---|---|
 | Licence | Public: CC BY 4.0 (guide, SKILL and templates) + MIT (scripts); see `NOTICE` | Proprietary, LV-Webstudio |
 | Path | A five-step light path for extensions and small projects | Phases 0–9 plus 8 bis |
-| Templates | 8 (01, 06, 09, 10, 13, 15, 20 and 21) | 21 |
-| Golden rules | The 13, in short form | The 13 in full, plus the efficiency improvements E1–E15 |
+| Templates | 8 (01, 06, 09, 10, 13, 15, 20 and 21) | 24 |
+| Golden rules | The 13, in short form, and the 10 short team rules | The 13 in full, the 10 short team rules with their annexes and the efficiency improvements E1–E15 |
 | Research and audit | — | Parallel research waves and a single audit |
 | Knowledge validator | — | Yes |
 | Deployment and launch | — | Deployment and QA on another device, and publication |
-| Governance and security | Rule 13 in short form, «Proof:» on every result, incidents (20) and accountability (21) | Plus: governance of several machines (19), moving a secret and rotating an exposed key |
+| Governance and security | Rule 13 in short form, «Proof:» on every result, incidents (20) and accountability (21) | Plus: governance of several machines (19), moving a secret, rotating an exposed key, data migration (22), handover or machine change (23) and privacy checklist (24) |
 | Several machines | A single session or machine; for several sessions with minimal rules, Wassup Basic | Full governance and optional coordination with Wassup |
 
 ## The five steps

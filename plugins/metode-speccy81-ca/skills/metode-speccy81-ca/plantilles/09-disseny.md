@@ -24,6 +24,8 @@ el codi amb regles; la IA només explica.
 | Fase | Contingut | Fita de sortida (prova real) |
 |---|---|---|
 
+**Criteris d'acceptació** (abans de començar): cadascun amb números i suposicions explícites (màquina, dades, xarxa), marcat «proposta» fins a mesurar-lo a la màquina real.
+
 ## 5. Pla de proves de camp (resum i prioritat; detall amb la plantilla 13)
 
 ## 6. Decisions de l'usuari

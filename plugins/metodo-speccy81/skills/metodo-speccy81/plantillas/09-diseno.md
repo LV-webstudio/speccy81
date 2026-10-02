@@ -24,6 +24,8 @@ código con reglas; la IA solo explica.
 | Fase | Contenido | Hito de salida (prueba real) |
 |---|---|---|
 
+**Criterios de aceptación** (antes de empezar): cada uno con números y suposiciones explícitas (equipo, datos, red), marcado «propuesta» hasta medirlo en el equipo real.
+
 ## 5. Plan de pruebas de campo (resumen y prioridad; detalle con la plantilla 13)
 
 ## 6. Decisiones del usuario

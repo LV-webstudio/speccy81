@@ -1,7 +1,7 @@
 {
   "name": "metodo-speccy81-pt",
   "displayName": "Método Speccy81",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "O Método Speccy81 (LV-Webstudio) para levar um projeto da ideia ao lançamento: investigação por partes, conhecimento verificado, auditoria, design aprovado antes de programar, testes de campo e publicação. Modo desde o início e modo projeto já começado, com modelos e um validador.",
   "icon": "./.claude-plugin/icon.png",
   "author": {

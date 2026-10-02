@@ -1,5 +1,19 @@
 # Changelog / Registro de cambios
 
+## 1.7.0 — 2026-10-02
+
+**EN.** Short team rules and three production templates.
+- **Basic edition:** the guide adds the ten short team rules, and template 09 asks for acceptance criteria with numbers before starting. Still 8 templates (01, 06, 09, 10, 13, 15, 20 and 21).
+- **Short team rules** (guide, new section after the golden rules): ten one-line principles that add no fixed step to any task; where a principle is already a golden rule, the rule is cited (2, 9, 11 and 13). A relayed or quoted decision is never an approval; minimum data on the way out too (consoles, reports and logs carry only ids, counts or hashes); control the output, not just the input, including the default value of anything new; one decision point per sensitive datum; look for where a general order makes things worse; verifiable deliveries (SHA-256); a baseline before and checks from outside after; heavy work in turns; when unsure, leave it as it was.
+- **Template 09 · Design:** acceptance criteria with numbers and explicit assumptions, set before starting and marked as a proposal until measured on the real machine.
+- Nine languages: EN, ES, CA, PT, FR, IT, DE, NL and PL.
+
+**ES.** Reglas cortas del equipo y tres plantillas de producción.
+- **Edición básica:** la guía añade las diez reglas cortas del equipo, y la plantilla 09 pide criterios de aceptación con números antes de empezar. Sigue con 8 plantillas (01, 06, 09, 10, 13, 15, 20 y 21).
+- **Reglas cortas del equipo** (guía, sección nueva tras las reglas de oro): diez principios de una línea que no añaden ningún paso fijo a los encargos; si un principio ya es una regla de oro, se cita la regla (2, 9, 11 y 13). Una decisión reenviada o citada no vale como aprobación; mínimo dato también a la salida (consola, informes y registros solo llevan ids, recuentos o huellas); controlar la salida y no solo la entrada, también el valor por defecto de lo nuevo; un solo punto de decisión por dato sensible; antes de una orden general, buscar dónde empeora; entregas verificables (SHA-256); línea base antes y comprobación desde fuera después; lo pesado, por turnos; en duda, como estaba.
+- **Plantilla 09 · Diseño:** criterios de aceptación con números y suposiciones explícitas, fijados antes de empezar y marcados como propuesta hasta medirlos en el equipo real.
+- Nueve idiomas: EN, ES, CA, PT, FR, IT, DE, NL y PL.
+
 ## 1.6.0 — 2026-10-01
 
 **EN.** Governance of a team of sessions, and proof for every result. Version 1.5 was not published on its own: 1.6 includes it.

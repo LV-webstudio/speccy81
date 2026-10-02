@@ -24,6 +24,8 @@ codice con regole; l'IA si limita a spiegare.
 | Fase | Contenuto | Traguardo di uscita (prova reale) |
 |---|---|---|
 
+**Criteri di accettazione** (prima di iniziare): ognuno con numeri e ipotesi esplicite (macchina, dati, rete), segnato «proposta» finché non lo si misura sulla macchina reale.
+
 ## 5. Piano di prove sul campo (sintesi e priorità; dettaglio con il modello 13)
 
 ## 6. Decisioni dell'utente
