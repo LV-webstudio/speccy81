@@ -1,0 +1,73 @@
+{
+  "name": "speccy81",
+  "owner": {
+    "name": "LV-Webstudio (Speccy81)",
+    "url": "https://lv-webstudio.com/"
+  },
+  "description": "The Speccy81 Method for Claude Code: from idea to launch. / El Método Speccy81 para Claude Code: de la idea al lanzamiento.",
+  "plugins": [
+    {
+      "name": "speccy81-method",
+      "source": "./plugins/speccy81-method",
+      "description": "Speccy81 Method (English): research in parts, audit, design before code, field tests and publication.",
+      "version": "1.6.0",
+      "category": "productivity"
+    },
+    {
+      "name": "metodo-speccy81",
+      "source": "./plugins/metodo-speccy81",
+      "description": "Método Speccy81 (español): investigación por partes, auditoría, diseño antes de programar, pruebas de campo y publicación.",
+      "version": "1.6.0",
+      "category": "productivity"
+    },
+    {
+      "name": "metode-speccy81-ca",
+      "source": "./plugins/metode-speccy81-ca",
+      "description": "Mètode Speccy81 (Català): El Mètode Speccy81 (LV-Webstudio) per portar un projecte de la idea al llançament: recerca per parts, coneixement verificat, auditoria, disseny aprovat abans de programar, proves de camp i publicació. Mode des de zero i mode projecte començat, amb plantilles i un validador.",
+      "version": "1.6.0",
+      "category": "productivity"
+    },
+    {
+      "name": "speccy81-methode-nl",
+      "source": "./plugins/speccy81-methode-nl",
+      "description": "Speccy81-methode (Nederlands): De Speccy81-methode (LV-Webstudio) om een project van idee tot lancering te brengen: onderzoek in delen, geverifieerde kennis, audit, ontwerp dat vóór het programmeren is goedgekeurd, veldtests en publicatie. Werkwijze voor een nieuw project en voor een bestaand projec",
+      "version": "1.6.0",
+      "category": "productivity"
+    },
+    {
+      "name": "metoda-speccy81-pl",
+      "source": "./plugins/metoda-speccy81-pl",
+      "description": "Metoda Speccy81 (Polski): Metoda Speccy81 (LV-Webstudio) prowadząca projekt od pomysłu do premiery: badania po kawałku, zweryfikowana wiedza, audyt, projekt zatwierdzony przed kodowaniem, testy terenowe i publikacja. Tryb od zera i tryb istniejącego projektu, z szablonami i walidatorem.",
+      "version": "1.6.0",
+      "category": "productivity"
+    },
+    {
+      "name": "metodo-speccy81-pt",
+      "source": "./plugins/metodo-speccy81-pt",
+      "description": "Método Speccy81 (Português): O Método Speccy81 (LV-Webstudio) para levar um projeto da ideia ao lançamento: investigação por partes, conhecimento verificado, auditoria, design aprovado antes de programar, testes de campo e publicação. Modo desde o início e modo projeto já começado, com modelos e um ",
+      "version": "1.6.0",
+      "category": "productivity"
+    },
+    {
+      "name": "methode-speccy81-fr",
+      "source": "./plugins/methode-speccy81-fr",
+      "description": "Méthode Speccy81 (Français): La méthode Speccy81 (LV-Webstudio) pour mener un projet de l'idée au lancement : recherche par parties, connaissances vérifiées, audit, conception approuvée avant de coder, essais sur le terrain et publication. Mode à partir de zéro et mode projet existant, avec modèles ",
+      "version": "1.6.0",
+      "category": "productivity"
+    },
+    {
+      "name": "metodo-speccy81-it",
+      "source": "./plugins/metodo-speccy81-it",
+      "description": "Metodo Speccy81 (Italiano): Il Metodo Speccy81 (LV-Webstudio) per portare un progetto dall'idea al lancio: ricerca per parti, conoscenza verificata, audit, progettazione approvata prima di programmare, prove sul campo e pubblicazione. Modalità da zero e modalità progetto esistente, con modelli e val",
+      "version": "1.6.0",
+      "category": "productivity"
+    },
+    {
+      "name": "speccy81-methode-de",
+      "source": "./plugins/speccy81-methode-de",
+      "description": "Speccy81-Methode (Deutsch): Die Speccy81-Methode (LV-Webstudio), um ein Projekt von der Idee bis zum Launch aufzusetzen: Recherche in Etappen, verifiziertes Wissen, Audit, vor dem Programmieren freigegebenes Design, Feldtests und Veröffentlichung. Modus „von Grund auf“ und Modus „bestehendes Projekt",
+      "version": "1.6.0",
+      "category": "productivity"
+    }
+  ]
+}

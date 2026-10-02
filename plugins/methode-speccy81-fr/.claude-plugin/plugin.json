@@ -1,0 +1,21 @@
+{
+  "name": "methode-speccy81-fr",
+  "displayName": "Méthode Speccy81",
+  "version": "1.6.0",
+  "description": "La méthode Speccy81 (LV-Webstudio) pour mener un projet de l'idée au lancement : recherche par parties, connaissances vérifiées, audit, conception approuvée avant de coder, essais sur le terrain et publication. Mode à partir de zéro et mode projet existant, avec modèles et validateur.",
+  "icon": "./.claude-plugin/icon.png",
+  "author": {
+    "name": "LV-Webstudio (Speccy81)"
+  },
+  "homepage": "https://lv-webstudio.com/",
+  "license": "CC-BY-4.0 AND MIT",
+  "keywords": [
+    "methode",
+    "planification",
+    "recherche",
+    "audit",
+    "conception",
+    "publication",
+    "speccy81"
+  ]
+}

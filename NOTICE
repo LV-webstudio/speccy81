@@ -1,0 +1,20 @@
+Speccy81 Method — BASIC edition / Método Speccy81 — edición BÁSICA
+Copyright (c) 2026 LV-Webstudio (Speccy81) · https://lv-webstudio.com/
+
+EN. Which licence covers which files:
+  - Text and templates — every .md file (README*, CHANGELOG, plugins/*/skills/**/*.md):
+    Creative Commons Attribution 4.0 International (CC BY 4.0). See LICENSE-CONTENIDO.
+  - Scripts and code — every .sh, .js, .mjs and .json file: MIT License. See LICENSE.
+  - Images (assets/, plugins/*/.claude-plugin/icon.png): CC BY 4.0, like the text.
+  - Each plugin folder also carries its own LICENSE with both licences, so it can be used on its own.
+Suggested attribution: «Método Speccy81 · LV-Webstudio · lv-webstudio.com»
+The COMPLETE edition is NOT covered by these licences: it remains proprietary to LV-Webstudio.
+
+ES. Qué licencia cubre cada fichero:
+  - Texto y plantillas — todos los .md (README*, CHANGELOG, plugins/*/skills/**/*.md):
+    Creative Commons Reconocimiento 4.0 Internacional (CC BY 4.0). Ver LICENSE-CONTENIDO.
+  - Scripts y código — todos los .sh, .js, .mjs y .json: licencia MIT. Ver LICENSE.
+  - Imágenes (assets/, plugins/*/.claude-plugin/icon.png): CC BY 4.0, como el texto.
+  - Cada carpeta de plugin lleva además su propio LICENSE con las dos licencias, para usarla suelta.
+Atribución sugerida: «Método Speccy81 · LV-Webstudio · lv-webstudio.com»
+La edición COMPLETA NO está cubierta por estas licencias: sigue siendo propiedad de LV-Webstudio.

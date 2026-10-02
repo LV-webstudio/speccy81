@@ -1,0 +1,21 @@
+{
+  "name": "speccy81-methode-nl",
+  "displayName": "Speccy81-methode",
+  "version": "1.6.0",
+  "description": "De Speccy81-methode (LV-Webstudio) om een project van idee tot lancering te brengen: onderzoek in delen, geverifieerde kennis, audit, ontwerp dat vóór het programmeren is goedgekeurd, veldtests en publicatie. Werkwijze voor een nieuw project en voor een bestaand project, met sjablonen en een validatiescript.",
+  "icon": "./.claude-plugin/icon.png",
+  "author": {
+    "name": "LV-Webstudio (Speccy81)"
+  },
+  "homepage": "https://lv-webstudio.com/",
+  "license": "CC-BY-4.0 AND MIT",
+  "keywords": [
+    "methode",
+    "planning",
+    "onderzoek",
+    "audit",
+    "ontwerp",
+    "publicatie",
+    "speccy81"
+  ]
+}

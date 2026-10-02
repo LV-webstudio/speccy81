@@ -1,0 +1,21 @@
+{
+  "name": "metoda-speccy81-pl",
+  "displayName": "Metoda Speccy81",
+  "version": "1.6.0",
+  "description": "Metoda Speccy81 (LV-Webstudio) prowadząca projekt od pomysłu do premiery: badania po kawałku, zweryfikowana wiedza, audyt, projekt zatwierdzony przed kodowaniem, testy terenowe i publikacja. Tryb od zera i tryb istniejącego projektu, z szablonami i walidatorem.",
+  "icon": "./.claude-plugin/icon.png",
+  "author": {
+    "name": "LV-Webstudio (Speccy81)"
+  },
+  "homepage": "https://lv-webstudio.com/",
+  "license": "CC-BY-4.0 AND MIT",
+  "keywords": [
+    "metoda",
+    "planowanie",
+    "badania",
+    "audyt",
+    "projektowanie",
+    "publikacja",
+    "speccy81"
+  ]
+}
