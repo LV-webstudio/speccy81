@@ -1,5 +1,5 @@
 # Mètode Speccy81 · edició bàsica
-LV-Webstudio — versió 1.7 (2026-10-02)
+Shania Webstudio™ — versió 1.9 (2026-10-12)
 
 Guia per plantejar ampliacions i projectes petits (d'1 a 2 dies i una sola
 màquina) amb el mateix rigor que un de gran: entendre primer el que hi ha, veure què
@@ -21,6 +21,8 @@ Per a diverses sessions amb regles mínimes, Wassup Bàsica; amb el govern compl
 3. **Fase 7 · Disseny curt** (`plantilles/09-disseny.md`) → aprovació de l'usuari.
 4. **Fase 8 · Construcció** amb proves reals i de camp (`plantilles/13-proves-de-camp.md`).
 5. **Memòria idempotent** (`plantilles/15-memoria-idempotent.md`) en tancar cada pas.
+
+Si es prefereix portar-ho tot en un sol document, `plantilles/26-mode-lleuger.md` recull els cinc passos en una pàgina.
 
 La numeració de les fases (0, 7 i 8) és la del mètode complet, perquè el
 projecte pugui créixer sense haver de renumerar res.
@@ -130,6 +132,13 @@ tornen a la IA només recomptes i ids; cap clau en el que es distribueix
 (instal·ladors, apps, webs); i cada URL pública es prova sense iniciar sessió
 abans de publicar-la.
 
+I dues més (1.9): si el disseny depèn d'una tecnologia de risc, abans de
+comprometre'l es fa un **prototip de validació** en una còpia descartable
+(una pregunta de sí o no, criteris mesurables fixats abans, límit de temps i
+pla B); i el projecte porta un `AGENTE.md` curt amb la missió de l'agent que
+el gestionarà, les seves eines, què pot llegir, canviar o gastar sense
+preguntar i com informa.
+
 ### Fase 8 · Construcció per fases
 - Cada fase acaba amb una prova real; les proves de camp fan servir la plantilla 13
   (configuració neta, paràmetres comprovats prèviament, què s'observa, criteri
@@ -153,7 +162,8 @@ abans de publicar-la.
   Safari/WebKit, el desplegament amb revisió en un altre dispositiu (fase 8 bis), la
   publicació (fase 9) i el govern de diverses màquines i sessions.
 - L'edició completa hi afegeix també els annexos de les regles curtes de l'equip i les plantilles 22 (migració
-  de dades), 23 (relleu o canvi de màquina) i 24 (llista de privacitat).
+  de dades), 23 (relleu o canvi de màquina), 24 (llista de privacitat), 25 (part previ al desplegament) i 27
+  (prototip de validació).
 
 ---
 
@@ -169,6 +179,7 @@ abans de publicar-la.
 | `plantilles/15-memoria-idempotent.md` | Regla 11: `reprendre.md`, fitxers d'estat i índex |
 | `plantilles/20-incident.md` | Clau, dada o canal exposats: contenir, avisar, valorar, informar, registrar i aprendre |
 | `plantilles/21-rendicio-de-comptes.md` | Regla 2: tancament de cada encàrrec amb l'ordre literal, «Prova:», el que no s'ha fet i el que no s'ha comprovat |
+| `plantilles/26-mode-lleuger.md` | Els cinc passos en un sol document: fitxa i buits, una onada lleugera, disseny d'una pàgina i tancament |
 
 ---
-Aquesta és l'**edició bàsica** del Mètode Speccy81. L'**edició completa** hi afegeix les onades de recerca en paral·lel, l'auditoria única, el desplegament i la QA en un altre dispositiu, la publicació, la coordinació de diverses màquines, els validadors i 24 plantilles. Amb llicència de LV-Webstudio: https://lv-webstudio.com/
+Aquesta és l'**edició bàsica** del Mètode Speccy81. L'**edició completa** hi afegeix les onades de recerca en paral·lel, l'auditoria única, el desplegament i la QA en un altre dispositiu, la publicació, la coordinació de diverses màquines, els validadors i 27 plantilles. Amb llicència de Shania Webstudio™: https://shaniawebstudio.com/

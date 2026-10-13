@@ -10,6 +10,7 @@
 | Données d'essai (réelles ou de semence ; jamais de données personnelles dans des captures d'écran conservées) | | |
 | Qui exécute et qui observe (utilisateur / session / autre machine) | | |
 | Comment on observe (captures d'écran, ADB, journaux, `dumpsys`, console) | | |
+| **Porte « compile » :** vérification des types et build de production au vert sur le commit testé (le serveur de développement ne le garantit pas) | | |
 
 ## 2. Essais
 | # | Essai | Ce qu'il confirme | Étapes | Résultat attendu | Priorité |
@@ -22,6 +23,8 @@
 | P1 | | | | |
 
 « ⚠ non valable » = la configuration ne respectait pas le tableau 1 ; l'essai est répété et ne compte pas comme une défaillance du produit.
+
+**Un essai qui échoue ne se saute pas :** on le répète (p. ex. 3 fois) pour savoir s'il est instable ou réel, on regarde la capture et on cherche si c'est l'essai ou l'app qui échoue. S'il est finalement sauté, il figure comme « sauté » avec le motif.
 
 ## 4. Constats et changements
 | Constat | Concerne (règle / document / code) | Changement effectué en même temps |

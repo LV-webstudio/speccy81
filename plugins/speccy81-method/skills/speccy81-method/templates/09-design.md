@@ -26,6 +26,8 @@ calculated by code with rules; the AI only explains.
 
 **Acceptance criteria** (before starting): each one with numbers and explicit assumptions (machine, data, network), marked «proposal» until it is measured on the real machine.
 
+**If the goal is to optimise** (weight, speed, cost): a baseline measured beforehand, a numeric criterion fixed in advance and a check on the final artefact (what is served, downloaded or preloaded), not only on the code.
+
 ## 5. Field test plan (summary and priority; detail with template 13)
 
 ## 6. User decisions

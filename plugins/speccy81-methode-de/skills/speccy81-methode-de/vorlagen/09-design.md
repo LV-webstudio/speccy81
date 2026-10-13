@@ -26,6 +26,8 @@ Code mit Regeln; die KI erklärt nur.
 
 **Abnahmekriterien** (vor dem Start): jedes mit Zahlen und ausdrücklichen Annahmen (Rechner, Daten, Netz), als «Vorschlag» markiert, bis es auf dem echten Rechner gemessen ist.
 
+**Ist das Ziel eine Optimierung** (Gewicht, Geschwindigkeit, Kosten): vorher gemessene Baseline, vorher festgelegtes Zahlenkriterium und Prüfung am fertigen Artefakt (was ausgeliefert, heruntergeladen oder vorgeladen wird), nicht nur am Code.
+
 ## 5. Plan der Feldtests (Zusammenfassung und Priorität; Details mit Vorlage 13)
 
 ## 6. Entscheidungen des Nutzers

@@ -10,6 +10,7 @@
 | Dades de prova (reals o de mostra; mai dades personals en captures de pantalla que es desen) | | |
 | Qui executa i qui observa (usuari / sessió / una altra màquina) | | |
 | Com s'observa (captures, ADB, logs, `dumpsys`, consola) | | |
+| **Porta «compila»:** comprovació de tipus i build de producció en verd sobre el commit que es prova (el servidor de desenvolupament no ho garanteix) | | |
 
 ## 2. Proves
 | # | Prova | Què confirma | Passos | Resultat esperat | Prioritat |
@@ -22,6 +23,8 @@
 | P1 | | | | |
 
 «⚠ no vàlid» = la configuració no complia la taula 1; es repeteix i no compta com a fallada del producte.
+
+**Una prova que falla no se salta:** es repeteix (p. ex. 3 vegades) per saber si és inestable o real, es mira la captura i s'esbrina si falla la prova o l'app. Si al final se salta, consta com a «saltada» i amb el motiu.
 
 ## 4. Troballes i canvis
 | Troballa | Afecta (regla / document / codi) | Canvi fet alhora |

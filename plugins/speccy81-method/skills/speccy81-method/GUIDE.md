@@ -1,5 +1,5 @@
 # Speccy81 Method · basic edition
-LV-Webstudio — version 1.7 (2026-10-02)
+Shania Webstudio™ — version 1.9 (2026-10-12)
 
 A guide for setting up extensions and small projects (1 to 2 days on a single
 machine) with the same rigour as a large one: first understand what is there, see what
@@ -21,6 +21,8 @@ For several sessions with minimal rules, Wassup Basic; with full governance, the
 3. **Phase 7 · Short design** (`templates/09-design.md`) → user approval.
 4. **Phase 8 · Build** with real and field tests (`templates/13-field-tests.md`).
 5. **Idempotent memory** (`templates/15-idempotent-memory.md`) at the close of each step.
+
+If you prefer to keep everything in a single document, `templates/26-light-mode.md` gathers the five steps on one page.
 
 The phase numbering (0, 7 and 8) is that of the complete method, so that the
 project can grow without renumbering anything.
@@ -130,6 +132,13 @@ return only counts and ids to the AI; no key in anything that is distributed
 (installers, apps, websites); and each public URL is tested without logging in
 before it is published.
 
+And two more (1.9): if the design depends on a risky technology, before
+committing to it a **validation prototype** is made on a disposable copy
+(a yes-or-no question, measurable criteria set beforehand, a time limit and
+a plan B); and the project carries a short `AGENTE.md` with the mission of the
+agent that will manage it, its tools, what it may read, change or spend
+without asking and how it reports.
+
 ### Phase 8 · Phased build
 - Every phase ends with a real test; field tests use template 13
   (clean setup, settings checked beforehand, what is observed, validity
@@ -153,7 +162,8 @@ before it is published.
   Safari/WebKit list, deployment with review on another device (phase 8 bis),
   publication (phase 9) and governance of several machines and sessions.
 - The complete edition also adds the annexes of the short team rules and templates 22 (data migration),
-  23 (handover or machine change) and 24 (privacy checklist).
+  23 (handover or machine change), 24 (privacy checklist), 25 (pre-deployment report) and 27
+  (validation prototype).
 
 ---
 
@@ -169,6 +179,7 @@ before it is published.
 | `templates/15-idempotent-memory.md` | Rule 11: `resume.md`, state files and index |
 | `templates/20-incident.md` | Exposed key, datum or channel: contain, notify, assess, report, record and learn |
 | `templates/21-accountability.md` | Rule 2: closing each task with the literal order, «Proof:», what was not done and what was not checked |
+| `templates/26-light-mode.md` | The five steps in a single document: context sheet and gaps, one light wave, a one-page design and close |
 
 ---
-This is the **basic edition** of the Speccy81 Method. The **complete edition** adds parallel research waves, the single audit, deployment and QA on another device, publication, coordination of several machines, the validators and 24 templates. Licensed by LV-Webstudio: https://lv-webstudio.com/
+This is the **basic edition** of the Speccy81 Method. The **complete edition** adds parallel research waves, the single audit, deployment and QA on another device, publication, coordination of several machines, the validators and 27 templates. Licensed by Shania Webstudio™: https://shaniawebstudio.com/

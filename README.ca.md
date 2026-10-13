@@ -2,9 +2,9 @@
 
 ![Speccy81 Method](assets/banner.jpg)
 
-**De la idea al llançament.** Un mètode de LV-Webstudio (Speccy81) per plantejar qualsevol projecte — producte, servei, mòdul o app — amb el mateix rigor: investigar primer, decidir amb dades, convertir el que s'aprèn en coneixement verificat, auditar-lo, dissenyar abans de programar, provar al camp i publicar sense sorpreses. Té dues edicions construïdes des del mateix mètode, cadascuna com a marketplace de plugins de Claude Code.
+**De la idea al llançament.** Un mètode de Shania Webstudio™ (Speccy81) per plantejar qualsevol projecte — producte, servei, mòdul o app — amb el mateix rigor: investigar primer, decidir amb dades, convertir el que s'aprèn en coneixement verificat, auditar-lo, dissenyar abans de programar, provar al camp i publicar sense sorpreses. Té dues edicions construïdes des del mateix mètode, cadascuna com a marketplace de plugins de Claude Code.
 
-Aquesta és l'**edició bàsica**: lliure i pública, amb una skill, una guia curta i 8 plantilles en cada idioma.
+Aquesta és l'**edició bàsica**: lliure i pública, amb una skill, una guia curta i 9 plantilles en cada idioma.
 
 **Languages · Idiomas:** [English](README.md) · [Español](README.es.md) · [Català](README.ca.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Deutsch](README.de.md)
 
@@ -12,9 +12,9 @@ Aquesta és l'**edició bàsica**: lliure i pública, amb una skill, una guia cu
 
 | | Bàsica | Completa |
 |---|---|---|
-| Llicència | Pública: CC BY 4.0 (guia, SKILL i plantilles) + MIT (scripts); vegeu `NOTICE` | Propietària, de LV-Webstudio |
-| Recorregut | Un recorregut lleuger de cinc passos per a ampliacions i projectes petits | Fases 0–9 més la 8 bis |
-| Plantilles | 8 (01, 06, 09, 10, 13, 15, 20 i 21) | 24 |
+| Llicència | Pública: CC BY 4.0 (guia, SKILL i plantilles) + MIT (scripts); vegeu `NOTICE` | Propietària, de Shania Webstudio™ |
+| Recorregut | Un recorregut lleuger de cinc passos per a ampliacions i projectes petits | Fases 0–9 més la 8 bis, i un mode lleuger (C) per a projectes d'1–2 dies |
+| Plantilles | 9 (01, 06, 09, 10, 13, 15, 20, 21 i 26) | 27 |
 | Regles d'or | Les 13, en curt, i les 10 regles curtes de l'equip | Les 13 senceres, les 10 regles curtes de l'equip amb els seus annexos i les millores d'eficiència E1–E15 |
 | Recerca i auditoria | — | Onades de recerca en paral·lel i una auditoria única |
 | Validador de coneixement | — | Sí |
@@ -28,16 +28,17 @@ Aquesta és l'**edició bàsica**: lliure i pública, amb una skill, una guia cu
 |---|---|---|
 | 1 · Fase 0 | Fitxa de context; si el projecte ja està començat, s'hi recull el que existeix (codi, documents, decisions) | 01 |
 | 2 | Checklist de buits i fets canònics, abans d'investigar o dissenyar | 06, 10 |
-| 3 · Fase 7 | Disseny curt, aprovat per l'usuari abans de programar | 09 |
+| 3 · Fase 7 | Disseny curt, aprovat per l'usuari abans de programar; prototip de validació si hi ha una tecnologia de risc, i un `AGENTE.md` curt | 09 |
 | 4 · Fase 8 | Construcció amb proves reals i de camp | 13 |
 | 5 | Memòria idempotent en tancar cada pas | 15 |
+| Opcional | Els cinc passos en un sol document, per a projectes d'1–2 dies | 26 |
 | Sempre | Rendició de comptes amb «Prova:» en tancar cada encàrrec; incident si s'exposa una clau o una dada | 21, 20 |
 
 La numeració de les fases (0, 7 i 8) és la del mètode complet, perquè el projecte pugui créixer sense renumerar res. L'edició completa hi afegeix la resta: les fases 1 a 6, la 8 bis i la 9.
 
 ## Què hi ha a dins
 
-Un plugin per idioma, cadascun amb la skill, la guia i les 8 plantilles: `speccy81-method` (English), `metodo-speccy81` (Español), `metode-speccy81-ca` (Català), `metodo-speccy81-pt` (Português), `methode-speccy81-fr` (Français), `metodo-speccy81-it` (Italiano), `speccy81-methode-de` (Deutsch), `speccy81-methode-nl` (Nederlands) i `metoda-speccy81-pl` (Polski).
+Un plugin per idioma, cadascun amb la skill, la guia i les 9 plantilles: `speccy81-method` (English), `metodo-speccy81` (Español), `metode-speccy81-ca` (Català), `metodo-speccy81-pt` (Português), `methode-speccy81-fr` (Français), `metodo-speccy81-it` (Italiano), `speccy81-methode-de` (Deutsch), `speccy81-methode-nl` (Nederlands) i `metoda-speccy81-pl` (Polski).
 
 Tots els plugins porten el mateix mètode; instal·la el de l'idioma que prefereixis.
 
@@ -62,8 +63,8 @@ Després demana a Claude Code que «apliqui el mètode Speccy81», també per a 
 
 ## Com aconseguir l'edició completa
 
-L'edició completa té llicència de LV-Webstudio. Demana accés a través de [lv-webstudio.com](https://lv-webstudio.com/).
+L'edició completa té llicència de Shania Webstudio™. Demana accés a través de [shaniawebstudio.com](https://shaniawebstudio.com/).
 
 ## Llicència
 
-L'edició bàsica s'ofereix amb dues llicències: **CC BY 4.0** per a la guia, SKILL.md i les plantilles (ús lliure, també comercial, citant l'autoria) i **MIT** per als scripts i el codi. Atribució suggerida: «Método Speccy81 · LV-Webstudio · lv-webstudio.com». L'edició completa no està coberta per aquestes llicències. Consulta [LICENSE](LICENSE).
+L'edició bàsica s'ofereix amb dues llicències: **CC BY 4.0** per a la guia, SKILL.md i les plantilles (ús lliure, també comercial, citant l'autoria) i **MIT** per als scripts i el codi. Atribució suggerida: «Método Speccy81 · Shania Webstudio™ · shaniawebstudio.com». L'edició completa no està coberta per aquestes llicències. Consulta [LICENSE](LICENSE).

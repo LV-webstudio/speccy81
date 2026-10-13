@@ -26,6 +26,8 @@ oblicza kod według reguł; AI tylko wyjaśnia.
 
 **Kryteria akceptacji** (przed rozpoczęciem): każde z liczbami i jawnymi założeniami (maszyna, dane, sieć), oznaczone jako „propozycja”, dopóki nie zostanie zmierzone na prawdziwej maszynie.
 
+**Jeśli celem jest optymalizacja** (rozmiar, szybkość, koszt): pomiar bazowy wykonany wcześniej, kryterium liczbowe ustalone z góry i sprawdzenie na artefakcie końcowym (to, co się serwuje, pobiera lub wstępnie ładuje), nie tylko w kodzie.
+
 ## 5. Plan testów terenowych (streszczenie i priorytet; szczegóły z szablonem 13)
 
 ## 6. Decyzje użytkownika

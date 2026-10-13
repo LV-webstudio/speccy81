@@ -1,5 +1,5 @@
 # Metodo Speccy81 · edizione base
-LV-Webstudio — versione 1.7 (2026-10-02)
+Shania Webstudio™ — versione 1.9 (2026-10-12)
 
 Una guida per impostare estensioni e piccoli progetti (da 1 a 2 giorni e una sola
 macchina) con lo stesso rigore di uno grande: capire prima ciò che esiste, vedere cosa
@@ -21,6 +21,8 @@ Per più sessioni con regole minime, Wassup Base; con il governo completo, le ed
 3. **Fase 7 · Progettazione breve** (`modelli/09-progettazione.md`) → approvazione dell'utente.
 4. **Fase 8 · Costruzione** con prove reali e sul campo (`modelli/13-prove-sul-campo.md`).
 5. **Memoria idempotente** (`modelli/15-memoria-idempotente.md`) alla chiusura di ogni passo.
+
+Se si preferisce portare tutto in un solo documento, `modelli/26-modalita-leggera.md` raccoglie i cinque passi in una pagina.
 
 La numerazione delle fasi (0, 7 e 8) è quella del metodo completo, così il
 progetto può crescere senza rinumerare nulla.
@@ -130,6 +132,13 @@ restituiscono all'IA solo conteggi e id; nessuna chiave in ciò che si distribui
 (installatori, app, siti web); e ogni URL pubblico si prova senza accedere
 prima di pubblicarlo.
 
+E altre due (1.9): se la progettazione dipende da una tecnologia di rischio, prima
+di impegnarla si fa un **prototipo di validazione** su una copia usa e getta
+(una domanda da sì o no, criteri misurabili fissati prima, un limite di tempo e
+un piano B); e il progetto porta un `AGENTE.md` breve con la missione dell'agente
+che lo gestirà, i suoi strumenti, cosa può leggere, modificare o spendere senza
+chiedere e come riferisce.
+
 ### Fase 8 · Costruzione per fasi
 - Ogni fase termina con una prova reale; le prove sul campo usano il modello 13
   (configurazione pulita, impostazioni controllate prima, cosa si osserva, criterio di
@@ -153,7 +162,8 @@ prima di pubblicarlo.
   Safari/WebKit, la distribuzione con revisione su un altro dispositivo (fase 8 bis), la
   pubblicazione (fase 9) e il governo di più macchine e sessioni.
 - L'edizione completa aggiunge anche gli allegati delle regole brevi del team e i modelli 22 (migrazione dei
-  dati), 23 (passaggio di consegne o cambio di macchina) e 24 (checklist della privacy).
+  dati), 23 (passaggio di consegne o cambio di macchina) e 24 (checklist della privacy), 25 (parte preliminare alla distribuzione) e 27
+  (prototipo di validazione).
 
 ---
 
@@ -169,6 +179,7 @@ prima di pubblicarlo.
 | `modelli/15-memoria-idempotente.md` | Regola 11: `riprendi.md`, file di stato e indice |
 | `modelli/20-incidente.md` | Chiave, dato o canale esposti: contenere, avvisare, valutare, riferire, registrare e imparare |
 | `modelli/21-rendiconto.md` | Regola 2: chiusura di ogni incarico con l'ordine alla lettera, «Prova:», ciò che non è stato fatto e ciò che non è stato verificato |
+| `modelli/26-modalita-leggera.md` | I cinque passi in un solo documento: scheda e lacune, un'ondata leggera, progettazione di una pagina e chiusura |
 
 ---
-Questa è l'**edizione base** del Metodo Speccy81. L'**edizione completa** aggiunge le ondate di ricerca in parallelo, l'audit unico, la distribuzione e la QA su un altro dispositivo, la pubblicazione, il coordinamento di più macchine, i validatori e 24 modelli. Con licenza di LV-Webstudio: https://lv-webstudio.com/
+Questa è l'**edizione base** del Metodo Speccy81. L'**edizione completa** aggiunge le ondate di ricerca in parallelo, l'audit unico, la distribuzione e la QA su un altro dispositivo, la pubblicazione, il coordinamento di più macchine, i validatori e 27 modelli. Con licenza di Shania Webstudio™: https://shaniawebstudio.com/

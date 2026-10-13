@@ -1,5 +1,5 @@
 # Méthode Speccy81 · édition de base
-LV-Webstudio — version 1.7 (02/10/2026)
+Shania Webstudio™ — version 1.9 (12/10/2026)
 
 Un guide pour mettre en place des évolutions et des petits projets (de 1 à 2 jours sur une seule
 machine) avec la même rigueur qu'un grand projet : comprendre d'abord ce qui existe, voir ce qui
@@ -21,6 +21,8 @@ Pour plusieurs sessions avec des règles minimales, Wassup (édition de base) ; 
 3. **Phase 7 · Conception courte** (`modeles/09-conception.md`) → approbation de l'utilisateur.
 4. **Phase 8 · Construction** avec essais réels et sur le terrain (`modeles/13-essais-terrain.md`).
 5. **Mémoire idempotente** (`modeles/15-memoire-idempotente.md`) à la clôture de chaque étape.
+
+Si l'on préfère tout porter dans un seul document, `modeles/26-mode-leger.md` rassemble les cinq étapes sur une page.
 
 La numérotation des phases (0, 7 et 8) est celle de la méthode complète, afin que le
 projet puisse grandir sans rien renuméroter.
@@ -130,6 +132,13 @@ ne renvoient à l'IA que des décomptes et des ids ; aucune clé dans ce qui est
 (installeurs, apps, sites) ; et chaque URL publique est testée sans se connecter
 avant d'être publiée.
 
+Et deux de plus (1.9) : si la conception dépend d'une technologie à risque, avant
+de l'engager on fait un **prototype de validation** sur une copie jetable
+(une question à réponse oui ou non, des critères mesurables fixés avant, une limite de temps et
+un plan B) ; et le projet porte un `AGENTE.md` court avec la mission de l'agent qui
+le gérera, ses outils, ce qu'il peut lire, modifier ou dépenser sans demander
+et comment il rend compte.
+
 ### Phase 8 · Construction par phases
 - Chaque phase se termine par un essai réel ; les essais sur le terrain utilisent le modèle 13
   (configuration propre, réglages vérifiés au préalable, ce qui est observé, critère de
@@ -153,7 +162,8 @@ avant d'être publiée.
   Safari/WebKit, le déploiement avec revue sur un autre appareil (phase 8 bis), la
   publication (phase 9) et la gouvernance de plusieurs équipes et sessions.
 - L'édition complète ajoute aussi les annexes des règles courtes de l'équipe et les modèles 22 (migration de
-  données), 23 (relève ou changement de machine) et 24 (liste de confidentialité).
+  données), 23 (relève ou changement de machine), 24 (liste de confidentialité), 25 (rapport préalable au déploiement) et 27
+  (prototype de validation).
 
 ---
 
@@ -169,6 +179,7 @@ avant d'être publiée.
 | `modeles/15-memoire-idempotente.md` | Règle 11 : `reprendre.md`, fichiers d'état et index |
 | `modeles/20-incident.md` | Clé, donnée ou canal exposés : contenir, prévenir, évaluer, informer, consigner et apprendre |
 | `modeles/21-rendu-de-comptes.md` | Règle 2 : clôture de chaque mandat avec l'ordre littéral, « Preuve : », ce qui n'a pas été fait et ce qui n'a pas été vérifié |
+| `modeles/26-mode-leger.md` | Les cinq étapes en un seul document : fiche et lacunes, une vague légère, conception d'une page et clôture |
 
 ---
-Ceci est l'**édition de base** de la méthode Speccy81. L'**édition complète** ajoute les vagues de recherche en parallèle, l'audit unique, le déploiement et la QA sur un autre appareil, la publication, la coordination de plusieurs machines, les validateurs et 24 modèles. Sous licence de LV-Webstudio : https://lv-webstudio.com/
+Ceci est l'**édition de base** de la méthode Speccy81. L'**édition complète** ajoute les vagues de recherche en parallèle, l'audit unique, le déploiement et la QA sur un autre appareil, la publication, la coordination de plusieurs machines, les validateurs et 27 modèles. Sous licence de Shania Webstudio™ : https://shaniawebstudio.com/

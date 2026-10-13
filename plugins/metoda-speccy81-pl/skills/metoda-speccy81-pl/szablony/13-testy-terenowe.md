@@ -10,6 +10,7 @@
 | Dane testowe (prawdziwe lub przykładowe; nigdy dane osobowe na zapisywanych zrzutach ekranu) | | |
 | Kto wykonuje, a kto obserwuje (użytkownik / sesja / inny komputer) | | |
 | Jak się obserwuje (zrzuty ekranu, ADB, logi, `dumpsys`, konsola) | | |
+| **Bramka „kompiluje się”:** sprawdzenie typów i build produkcyjny na zielono na testowanym commicie (serwer deweloperski tego nie gwarantuje) | | |
 
 ## 2. Testy
 | # | Test | Co potwierdza | Kroki | Oczekiwany wynik | Priorytet |
@@ -22,6 +23,8 @@
 | P1 | | | | |
 
 „⚠ nieważny” = przygotowanie nie spełniało tabeli 1; test powtarza się i nie liczy się jako wada produktu.
+
+**Test, który zawodzi, nie jest pomijany:** powtarza się go (np. 3 razy), by wiedzieć, czy jest niestabilny, czy prawdziwy, ogląda się zrzut ekranu i ustala, czy zawodzi test, czy aplikacja. Jeśli ostatecznie zostanie pominięty, figuruje jako „pominięty” wraz z powodem.
 
 ## 4. Ustalenia i zmiany
 | Ustalenie | Dotyczy (zasada / dokument / kod) | Zmiana wprowadzona jednocześnie |

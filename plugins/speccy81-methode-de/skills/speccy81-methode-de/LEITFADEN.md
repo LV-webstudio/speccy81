@@ -1,5 +1,5 @@
 # Speccy81-Methode · Basis-Edition
-LV-Webstudio — Version 1.7 (02.10.2026)
+Shania Webstudio™ — Version 1.9 (12.10.2026)
 
 Ein Leitfaden, um Erweiterungen und kleine Projekte (1 bis 2 Tage und ein einziger
 Rechner) mit derselben Sorgfalt wie ein großes aufzusetzen: zuerst verstehen, was es gibt, sehen, was
@@ -21,6 +21,8 @@ Für mehrere Sitzungen mit Mindestregeln Wassup Basis; mit der vollständigen St
 3. **Phase 7 · Kurzes Design** (`vorlagen/09-design.md`) → Freigabe durch den Nutzer.
 4. **Phase 8 · Aufbau** mit echten Tests und Feldtests (`vorlagen/13-feldtests.md`).
 5. **Idempotentes Gedächtnis** (`vorlagen/15-idempotentes-gedaechtnis.md`) beim Abschluss jedes Schritts.
+
+Wer lieber alles in einem einzigen Dokument führen möchte: `vorlagen/26-leichter-modus.md` fasst die fünf Schritte auf einer Seite zusammen.
 
 Die Nummerierung der Phasen (0, 7 und 8) ist die der vollständigen Methode, damit das
 Projekt wachsen kann, ohne etwas neu zu nummerieren.
@@ -130,6 +132,13 @@ geben der KI nur Zählungen und IDs zurück; kein Schlüssel in dem, was verteil
 (Installer, Apps, Websites); und jede öffentliche URL wird vor der Veröffentlichung ohne Anmeldung
 getestet.
 
+Und zwei weitere (1.9): Hängt das Design von einer riskanten Technologie ab,
+wird vor der Festlegung ein **Validierungsprototyp** auf einer Wegwerfkopie
+gemacht (eine Ja-oder-Nein-Frage, vorher festgelegte messbare Kriterien,
+Zeitlimit und Plan B); und das Projekt trägt eine kurze `AGENTE.md` mit der
+Mission des Agenten, der es verwalten wird, seinen Werkzeugen, was er ohne
+Nachfrage lesen, ändern oder ausgeben darf und wie er berichtet.
+
 ### Phase 8 · Aufbau in Phasen
 - Jede Phase endet mit einem echten Test; Feldtests nutzen Vorlage 13
   (sauberer Aufbau, vorher geprüfte Einstellungen, was beobachtet wird, Gültigkeits-
@@ -153,7 +162,8 @@ getestet.
   Safari/WebKit, das Deployment mit Prüfung auf einem anderen Gerät (Phase 8 bis), die
   Veröffentlichung (Phase 9) und die Steuerung mehrerer Rechner und Sitzungen.
 - Die vollständige Edition ergänzt außerdem die Anhänge der Kurzregeln des Teams und die Vorlagen 22
-  (Datenmigration), 23 (Übergabe oder Rechnerwechsel) und 24 (Datenschutz-Checkliste).
+  (Datenmigration), 23 (Übergabe oder Rechnerwechsel), 24 (Datenschutz-Checkliste), 25 (Vorabbericht zum Deployment) und 27
+  (Validierungsprototyp).
 
 ---
 
@@ -169,6 +179,7 @@ getestet.
 | `vorlagen/15-idempotentes-gedaechtnis.md` | Regel 11: `fortsetzen.md`, Statusdateien und Index |
 | `vorlagen/20-vorfall.md` | Offengelegter Schlüssel, offengelegte Daten oder offengelegter Kanal: eindämmen, benachrichtigen, bewerten, melden, dokumentieren und lernen |
 | `vorlagen/21-rechenschaft.md` | Regel 2: Abschluss jedes Auftrags mit dem wörtlichen Befehl, «Nachweis:», dem Nicht-Erledigten und dem Ungeprüften |
+| `vorlagen/26-leichter-modus.md` | Die fünf Schritte in einem einzigen Dokument: Kontextblatt und Lücken, eine leichte Welle, einseitiges Design und Abschluss |
 
 ---
-Dies ist die **Basis-Edition** der Speccy81-Methode. Die **vollständige Edition** ergänzt die parallelen Recherchewellen, das einzige Audit, das Deployment und die QA auf einem anderen Gerät, die Veröffentlichung, die Koordination mehrerer Rechner, die Validatoren und 24 Vorlagen. Lizenziert von LV-Webstudio: https://lv-webstudio.com/
+Dies ist die **Basis-Edition** der Speccy81-Methode. Die **vollständige Edition** ergänzt die parallelen Recherchewellen, das einzige Audit, das Deployment und die QA auf einem anderen Gerät, die Veröffentlichung, die Koordination mehrerer Rechner, die Validatoren und 27 Vorlagen. Lizenziert von Shania Webstudio™: https://shaniawebstudio.com/

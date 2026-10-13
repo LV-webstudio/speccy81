@@ -26,6 +26,8 @@ codice con regole; l'IA si limita a spiegare.
 
 **Criteri di accettazione** (prima di iniziare): ognuno con numeri e ipotesi esplicite (macchina, dati, rete), segnato «proposta» finché non lo si misura sulla macchina reale.
 
+**Se l'obiettivo è ottimizzare** (peso, velocità, costo): linea di base misurata prima, criterio numerico fissato in anticipo e verifica sull'artefatto finale (ciò che viene servito, scaricato o precaricato), non solo sul codice.
+
 ## 5. Piano di prove sul campo (sintesi e priorità; dettaglio con il modello 13)
 
 ## 6. Decisioni dell'utente

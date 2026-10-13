@@ -2,9 +2,9 @@
 
 ![Speccy81 Method](assets/banner.jpg)
 
-**Von der Idee bis zum Launch.** Eine Methode von LV-Webstudio (Speccy81), um jedes Projekt — Produkt, Dienst, Modul oder App — mit derselben Sorgfalt aufzusetzen: zuerst recherchieren, mit Daten entscheiden, das Gelernte in verifiziertes Wissen verwandeln, es auditieren, vor dem Programmieren designen, im Feld testen und ohne Überraschungen veröffentlichen. Es gibt sie in zwei Editionen aus derselben Methode, jede als Plugin-Marketplace für Claude Code.
+**Von der Idee bis zum Launch.** Eine Methode von Shania Webstudio™ (Speccy81), um jedes Projekt — Produkt, Dienst, Modul oder App — mit derselben Sorgfalt aufzusetzen: zuerst recherchieren, mit Daten entscheiden, das Gelernte in verifiziertes Wissen verwandeln, es auditieren, vor dem Programmieren designen, im Feld testen und ohne Überraschungen veröffentlichen. Es gibt sie in zwei Editionen aus derselben Methode, jede als Plugin-Marketplace für Claude Code.
 
-Dies ist die **Basis-Edition**: frei und öffentlich, mit einem Skill, einem kurzen Leitfaden und 8 Vorlagen in jeder Sprache.
+Dies ist die **Basis-Edition**: frei und öffentlich, mit einem Skill, einem kurzen Leitfaden und 9 Vorlagen in jeder Sprache.
 
 **Languages · Idiomas:** [English](README.md) · [Español](README.es.md) · [Català](README.ca.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Deutsch](README.de.md)
 
@@ -12,9 +12,9 @@ Dies ist die **Basis-Edition**: frei und öffentlich, mit einem Skill, einem kur
 
 | | Basis | Vollversion |
 |---|---|---|
-| Lizenz | Öffentlich: CC BY 4.0 (Leitfaden, SKILL und Vorlagen) + MIT (Skripte); siehe `NOTICE` | Proprietär, LV-Webstudio |
-| Weg | Ein leichter Weg in fünf Schritten für Erweiterungen und kleine Projekte | Phasen 0–9 plus 8 bis |
-| Vorlagen | 8 (01, 06, 09, 10, 13, 15, 20 und 21) | 24 |
+| Lizenz | Öffentlich: CC BY 4.0 (Leitfaden, SKILL und Vorlagen) + MIT (Skripte); siehe `NOTICE` | Proprietär, Shania Webstudio™ |
+| Weg | Ein leichter Weg in fünf Schritten für Erweiterungen und kleine Projekte | Phasen 0–9 plus 8 bis und ein leichter Modus (C) für Projekte von 1–2 Tagen |
+| Vorlagen | 9 (01, 06, 09, 10, 13, 15, 20, 21 und 26) | 27 |
 | Goldene Regeln | Die 13, in Kurzform, und die 10 Kurzregeln des Teams | Die 13 vollständig, die 10 Kurzregeln des Teams mit ihren Anhängen und die Effizienzverbesserungen E1–E15 |
 | Recherche und Audit | — | Parallele Recherchewellen und ein einziges Audit |
 | Wissensvalidator | — | Ja |
@@ -28,16 +28,17 @@ Dies ist die **Basis-Edition**: frei und öffentlich, mit einem Skill, einem kur
 |---|---|---|
 | 1 · Phase 0 | Kontextblatt; läuft das Projekt bereits, wird dort festgehalten, was existiert (Code, Dokumente, Entscheidungen) | 01 |
 | 2 | Lücken-Checkliste und kanonische Fakten, vor Recherche oder Design | 06, 10 |
-| 3 · Phase 7 | Kurzes Design, vom Nutzer vor dem Programmieren freigegeben | 09 |
+| 3 · Phase 7 | Kurzes Design, vom Nutzer vor dem Programmieren freigegeben; Validierungsprototyp bei riskanter Technologie und eine kurze `AGENTE.md` | 09 |
 | 4 · Phase 8 | Umsetzung mit echten Tests und Feldtests | 13 |
 | 5 | Idempotentes Gedächtnis zum Abschluss jedes Schritts | 15 |
+| Optional | Die fünf Schritte in einem einzigen Dokument, für Projekte von 1–2 Tagen | 26 |
 | Immer | Rechenschaft mit «Nachweis:» zum Abschluss jedes Auftrags; Vorfall, wenn ein Schlüssel oder Daten offengelegt werden | 21, 20 |
 
 Die Phasennummern (0, 7 und 8) sind die der vollständigen Methode, damit ein Projekt wachsen kann, ohne etwas umzunummerieren. Die Vollversion ergänzt den Rest: die Phasen 1 bis 6, 8 bis und 9.
 
 ## Was enthalten ist
 
-Ein Plugin pro Sprache, jeweils mit dem Skill, dem Leitfaden und den 8 Vorlagen: `speccy81-method` (English), `metodo-speccy81` (Español), `metode-speccy81-ca` (Català), `metodo-speccy81-pt` (Português), `methode-speccy81-fr` (Français), `metodo-speccy81-it` (Italiano), `speccy81-methode-de` (Deutsch), `speccy81-methode-nl` (Nederlands) und `metoda-speccy81-pl` (Polski).
+Ein Plugin pro Sprache, jeweils mit dem Skill, dem Leitfaden und den 9 Vorlagen: `speccy81-method` (English), `metodo-speccy81` (Español), `metode-speccy81-ca` (Català), `metodo-speccy81-pt` (Português), `methode-speccy81-fr` (Français), `metodo-speccy81-it` (Italiano), `speccy81-methode-de` (Deutsch), `speccy81-methode-nl` (Nederlands) und `metoda-speccy81-pl` (Polski).
 
 Alle Plugins enthalten dieselbe Methode; installiere das in deiner bevorzugten Sprache.
 
@@ -62,8 +63,8 @@ Bitte Claude Code danach, „die Speccy81-Methode anzuwenden“, auch bei einem 
 
 ## So erhältst du die Vollversion
 
-Die Vollversion wird von LV-Webstudio lizenziert. Zugang anfragen über [lv-webstudio.com](https://lv-webstudio.com/).
+Die Vollversion wird von Shania Webstudio™ lizenziert. Zugang anfragen über [shaniawebstudio.com](https://shaniawebstudio.com/).
 
 ## Lizenz
 
-Die Basis-Edition wird unter zwei Lizenzen angeboten: **CC BY 4.0** für den Leitfaden, SKILL.md und die Vorlagen (freie Nutzung, auch kommerziell, mit Namensnennung) und **MIT** für Skripte und Code. Vorgeschlagene Namensnennung: «Método Speccy81 · LV-Webstudio · lv-webstudio.com». Die Vollversion ist von diesen Lizenzen nicht erfasst. Siehe [LICENSE](LICENSE).
+Die Basis-Edition wird unter zwei Lizenzen angeboten: **CC BY 4.0** für den Leitfaden, SKILL.md und die Vorlagen (freie Nutzung, auch kommerziell, mit Namensnennung) und **MIT** für Skripte und Code. Vorgeschlagene Namensnennung: «Método Speccy81 · Shania Webstudio™ · shaniawebstudio.com». Die Vollversion ist von diesen Lizenzen nicht erfasst. Siehe [LICENSE](LICENSE).

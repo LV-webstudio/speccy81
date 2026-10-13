@@ -2,9 +2,9 @@
 
 ![Speccy81 Method](assets/banner.jpg)
 
-**Van idee tot lancering.** Een methode van LV-Webstudio (Speccy81) om elk project — product, dienst, module of app — met dezelfde zorgvuldigheid op te zetten: eerst onderzoeken, beslissen op basis van gegevens, wat je leert omzetten in geverifieerde kennis, die auditen, ontwerpen vóór het programmeren, in het veld testen en zonder verrassingen publiceren. Ze bestaat in twee edities, gebouwd vanuit dezelfde methode, elk als een Claude Code-pluginmarketplace.
+**Van idee tot lancering.** Een methode van Shania Webstudio™ (Speccy81) om elk project — product, dienst, module of app — met dezelfde zorgvuldigheid op te zetten: eerst onderzoeken, beslissen op basis van gegevens, wat je leert omzetten in geverifieerde kennis, die auditen, ontwerpen vóór het programmeren, in het veld testen en zonder verrassingen publiceren. Ze bestaat in twee edities, gebouwd vanuit dezelfde methode, elk als een Claude Code-pluginmarketplace.
 
-Dit is de **basiseditie**: vrij en openbaar, met een skill, een korte gids en 8 sjablonen in elke taal.
+Dit is de **basiseditie**: vrij en openbaar, met een skill, een korte gids en 9 sjablonen in elke taal.
 
 **Languages · Idiomas:** [English](README.md) · [Español](README.es.md) · [Català](README.ca.md) · [Nederlands](README.nl.md) · [Polski](README.pl.md) · [Português](README.pt.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Deutsch](README.de.md)
 
@@ -12,9 +12,9 @@ Dit is de **basiseditie**: vrij en openbaar, met een skill, een korte gids en 8 
 
 | | Basis | Volledig |
 |---|---|---|
-| Licentie | Openbaar: CC BY 4.0 (gids, SKILL en sjablonen) + MIT (scripts); zie `NOTICE` | Eigendom van LV-Webstudio |
-| Traject | Een licht traject in vijf stappen voor uitbreidingen en kleine projecten | Fasen 0–9 plus 8 bis |
-| Sjablonen | 8 (01, 06, 09, 10, 13, 15, 20 en 21) | 24 |
+| Licentie | Openbaar: CC BY 4.0 (gids, SKILL en sjablonen) + MIT (scripts); zie `NOTICE` | Eigendom van Shania Webstudio™ |
+| Traject | Een licht traject in vijf stappen voor uitbreidingen en kleine projecten | Fasen 0–9 plus 8 bis, en een lichte werkwijze (C) voor projecten van 1–2 dagen |
+| Sjablonen | 9 (01, 06, 09, 10, 13, 15, 20, 21 en 26) | 27 |
 | Gouden regels | De 13, in korte vorm, en de 10 korte teamregels | De 13 volledig, de 10 korte teamregels met hun bijlagen en de efficiëntieverbeteringen E1–E15 |
 | Onderzoek en audit | — | Onderzoeksgolven in parallel en één enkele audit |
 | Kennisvalidator | — | Ja |
@@ -28,16 +28,17 @@ Dit is de **basiseditie**: vrij en openbaar, met een skill, een korte gids en 8 
 |---|---|---|
 | 1 · Fase 0 | Contextblad; is het project al begonnen, leg dan vast wat er al is (code, documenten, besluiten) | 01 |
 | 2 | Checklist van hiaten en canonieke feiten, vóór onderzoek of ontwerp | 06, 10 |
-| 3 · Fase 7 | Kort ontwerp, goedgekeurd door de gebruiker vóór het programmeren | 09 |
+| 3 · Fase 7 | Kort ontwerp, goedgekeurd door de gebruiker vóór het programmeren; validatieprototype bij een technologie met risico, en een kort `AGENTE.md` | 09 |
 | 4 · Fase 8 | Bouw met echte tests en veldtests | 13 |
 | 5 | Idempotent geheugen bij het afsluiten van elke stap | 15 |
+| Optioneel | De vijf stappen in één document, voor projecten van 1–2 dagen | 26 |
 | Altijd | Rekenschap met «Bewijs:» bij het afsluiten van elke opdracht; incident als een sleutel of een gegeven is blootgesteld | 21, 20 |
 
 De fasenummers (0, 7 en 8) zijn die van de volledige methode, zodat een project kan groeien zonder iets te hernummeren. De volledige editie voegt de rest toe: fasen 1 tot 6, 8 bis en 9.
 
 ## Wat erin zit
 
-Eén plugin per taal, elk met de skill, de gids en de 8 sjablonen: `speccy81-method` (English), `metodo-speccy81` (Español), `metode-speccy81-ca` (Català), `metodo-speccy81-pt` (Português), `methode-speccy81-fr` (Français), `metodo-speccy81-it` (Italiano), `speccy81-methode-de` (Deutsch), `speccy81-methode-nl` (Nederlands) en `metoda-speccy81-pl` (Polski).
+Eén plugin per taal, elk met de skill, de gids en de 9 sjablonen: `speccy81-method` (English), `metodo-speccy81` (Español), `metode-speccy81-ca` (Català), `metodo-speccy81-pt` (Português), `methode-speccy81-fr` (Français), `metodo-speccy81-it` (Italiano), `speccy81-methode-de` (Deutsch), `speccy81-methode-nl` (Nederlands) en `metoda-speccy81-pl` (Polski).
 
 Alle plugins bevatten dezelfde methode; installeer die in de taal van je voorkeur.
 
@@ -62,8 +63,8 @@ Vraag Claude Code daarna om "de Speccy81-methode toe te passen", ook voor een pr
 
 ## De volledige editie verkrijgen
 
-De volledige editie wordt in licentie gegeven door LV-Webstudio. Vraag toegang aan via [lv-webstudio.com](https://lv-webstudio.com/).
+De volledige editie wordt in licentie gegeven door Shania Webstudio™. Vraag toegang aan via [shaniawebstudio.com](https://shaniawebstudio.com/).
 
 ## Licentie
 
-De basiseditie wordt aangeboden onder twee licenties: **CC BY 4.0** voor de gids, SKILL.md en de sjablonen (vrij gebruik, ook commercieel, met naamsvermelding) en **MIT** voor scripts en code. Voorgestelde naamsvermelding: «Método Speccy81 · LV-Webstudio · lv-webstudio.com». De volledige editie valt niet onder deze licenties. Zie [LICENSE](LICENSE).
+De basiseditie wordt aangeboden onder twee licenties: **CC BY 4.0** voor de gids, SKILL.md en de sjablonen (vrij gebruik, ook commercieel, met naamsvermelding) en **MIT** voor scripts en code. Voorgestelde naamsvermelding: «Método Speccy81 · Shania Webstudio™ · shaniawebstudio.com». De volledige editie valt niet onder deze licenties. Zie [LICENSE](LICENSE).

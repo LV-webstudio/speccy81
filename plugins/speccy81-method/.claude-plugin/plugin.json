@@ -1,13 +1,13 @@
 {
   "name": "speccy81-method",
   "displayName": "Speccy81 Method",
-  "version": "1.7.0",
-  "description": "The Speccy81 Method (LV-Webstudio) for taking a project from idea to launch: research in parts, verified knowledge, audit, design approved before coding, field tests and publication. From-scratch mode and existing-project mode, with templates and a validator.",
+  "version": "1.9.0",
+  "description": "The Speccy81 Method (Shania Webstudio) for taking a project from idea to launch: research in parts, verified knowledge, audit, design approved before coding, field tests and publication. From-scratch mode and existing-project mode, with templates and a validator.",
   "icon": "./.claude-plugin/icon.png",
   "author": {
-    "name": "LV-Webstudio (Speccy81)"
+    "name": "Shania Webstudio (Speccy81)"
   },
-  "homepage": "https://lv-webstudio.com/",
+  "homepage": "https://shaniawebstudio.com/",
   "license": "CC-BY-4.0 AND MIT",
   "keywords": [
     "method",

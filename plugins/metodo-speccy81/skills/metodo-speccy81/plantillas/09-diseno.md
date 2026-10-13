@@ -26,6 +26,8 @@ código con reglas; la IA solo explica.
 
 **Criterios de aceptación** (antes de empezar): cada uno con números y suposiciones explícitas (equipo, datos, red), marcado «propuesta» hasta medirlo en el equipo real.
 
+**Si el objetivo es optimizar** (peso, velocidad, coste): línea base medida antes, criterio numérico fijado de antemano y comprobación en el artefacto final (lo que se sirve, se descarga o se precarga), no solo en el código.
+
 ## 5. Plan de pruebas de campo (resumen y prioridad; detalle con la plantilla 13)
 
 ## 6. Decisiones del usuario

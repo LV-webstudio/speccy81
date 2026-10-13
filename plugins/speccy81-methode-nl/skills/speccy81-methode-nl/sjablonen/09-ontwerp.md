@@ -26,6 +26,8 @@ door code met regels berekend; de AI legt alleen uit.
 
 **Acceptatiecriteria** (vóór de start): elk met cijfers en expliciete aannames (machine, gegevens, netwerk), gemarkeerd als «voorstel» tot het op de echte machine is gemeten.
 
+**Als het doel optimaliseren is** (gewicht, snelheid, kosten): nulmeting vooraf, vooraf vastgesteld numeriek criterium en controle op het eindartefact (wat wordt geserveerd, gedownload of vooraf geladen), niet alleen in de code.
+
 ## 5. Plan voor veldtests (samenvatting en prioriteit; detail met sjabloon 13)
 
 ## 6. Besluiten van de gebruiker

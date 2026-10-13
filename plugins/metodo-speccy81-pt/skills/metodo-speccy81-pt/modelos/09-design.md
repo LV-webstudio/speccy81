@@ -26,6 +26,8 @@ pelo código com regras; a IA só explica.
 
 **Critérios de aceitação** (antes de começar): cada um com números e pressupostos explícitos (máquina, dados, rede), marcado «proposta» até ser medido na máquina real.
 
+**Se o objetivo é otimizar** (peso, velocidade, custo): linha de base medida antes, critério numérico fixado de antemão e verificação no artefacto final (o que se serve, se descarrega ou se pré-carrega), não só no código.
+
 ## 5. Plano de testes de campo (resumo e prioridade; detalhe com o modelo 13)
 
 ## 6. Decisões do utilizador

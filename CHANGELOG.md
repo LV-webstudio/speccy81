@@ -1,5 +1,31 @@
 # Changelog / Registro de cambios
 
+## 1.9.0 — 2026-10-12
+
+**EN.** Light mode, validation prototype, and working with the cloud and other tools. Brand: Shania Webstudio™ (shaniawebstudio.com).
+- **Basic edition:** phase 7 adds a **validation prototype** before committing the design to a risky technology (one yes/no question, measurable criteria fixed in advance, a time limit and a plan B) and a short **`AGENTE.md`** (mission of the agent that will run the project, its tools, what it may read, change or spend without asking, and how it reports). New **template 26 · Light mode**: the five steps in one document, for 1–2 day projects. 9 templates.
+- **Phase 7 · Design:** validation prototype before committing the design to a technology with a known risk; a result that looks good but misses the thresholds is a NO. Every project carries an `AGENTE.md` written during design: mission, tools, approval levels (read · change · spend) and how it reports, with «Proof:».
+- Nine languages: EN, ES, CA, PT, FR, IT, DE, NL and PL.
+
+**ES.** Modo ligero, prototipo de validación y trabajo con la nube y con otras herramientas. Marca: Shania Webstudio™ (shaniawebstudio.com).
+- **Edición básica:** la fase 7 añade un **prototipo de validación** antes de comprometer el diseño con una tecnología de riesgo (una pregunta de sí o no, criterios medibles fijados antes, límite de tiempo y plan B) y un **`AGENTE.md`** corto (misión del agente que gestionará el proyecto, sus herramientas, qué puede leer, cambiar o gastar sin preguntar y cómo informa). **Plantilla nueva 26 · Modo ligero**: los cinco pasos en un solo documento, para proyectos de 1–2 días. 9 plantillas.
+- **Fase 7 · Diseño:** prototipo de validación antes de comprometer el diseño con una tecnología de riesgo conocido; un resultado que parece bueno pero no cumple los umbrales es un NO. Cada proyecto lleva un `AGENTE.md` redactado en el diseño: misión, herramientas, niveles de aprobación (leer · cambiar · gastar) y cómo informa, con «Prueba:».
+- Nueve idiomas: EN, ES, CA, PT, FR, IT, DE, NL y PL.
+
+## 1.8.0 — 2026-10-03
+
+**EN.** Quality gates and deployment with a safety net.
+- **Basic edition:** template 13 adds the «it builds» gate (type check and production build green on the commit being tested) and «a failing test is not skipped»; template 09 asks for a baseline when the goal is to optimise. Still 8 templates.
+- **Template 13 · Field tests:** the «it builds» gate before trusting field tests (the dev server transforms file by file and does not guarantee it); a failing test is repeated to tell flaky from real, the capture is checked and the cause is found (test or app); if it is finally skipped, it says so, with the reason.
+- **Template 09 · Design:** an optimisation carries a measured baseline, a numeric criterion fixed in advance and a check on the final artefact (what is served, downloaded or preloaded), not only on the code.
+- Nine languages: EN, ES, CA, PT, FR, IT, DE, NL and PL.
+
+**ES.** Puertas de calidad y despliegue con red.
+- **Edición básica:** la plantilla 13 añade la puerta «compila» (comprobación de tipos y build de producción en verde sobre el commit que se prueba) y «una prueba que falla no se salta»; la plantilla 09 pide una línea base cuando el objetivo es optimizar. Sigue con 8 plantillas.
+- **Plantilla 13 · Pruebas de campo:** puerta «compila» antes de fiarse de las pruebas de campo (el servidor de desarrollo transforma fichero a fichero y no lo garantiza); una prueba que falla se repite para saber si es inestable o real, se mira la captura y se averigua la causa (prueba o app); si al final se salta, consta, con el motivo.
+- **Plantilla 09 · Diseño:** una optimización lleva línea base medida, criterio numérico fijado de antemano y comprobación en el artefacto final (lo que se sirve, se descarga o se precarga), no solo en el código.
+- Nueve idiomas: EN, ES, CA, PT, FR, IT, DE, NL y PL.
+
 ## 1.7.0 — 2026-10-02
 
 **EN.** Short team rules and three production templates.
@@ -40,7 +66,7 @@
 
 **EN.** Two editions built from one source.
 - **This is the basic edition**, licensed CC BY 4.0 (guide, SKILL and templates) and MIT (scripts). It is a lightweight path in five steps for extensions and small projects: context sheet, gap checklist, short design approved before coding, build with field tests, and idempotent memory. It has 6 templates (01, 06, 09, 10, 13 and 15) and the 12 golden rules in short form.
-- The **complete edition** (proprietary, LV-Webstudio) adds everything else listed below. You can request it from LV-Webstudio.
+- The **complete edition** (proprietary, Shania Webstudio) adds everything else listed below. You can request it from Shania Webstudio.
 - Method changes in 1.5:
   - **Rule 2:** measure before raising an alarm; public claims carry a date, a scope and the method of measurement.
   - **Rule 4:** the licences of external data are a hard filter.
@@ -54,7 +80,7 @@
 
 **ES.** Dos ediciones construidas desde una sola fuente.
 - **Esta es la edición básica**, con licencia CC BY 4.0 (guía, SKILL y plantillas) y MIT (scripts). Es un recorrido ligero en cinco pasos para ampliaciones y proyectos pequeños: ficha de contexto, checklist de huecos, diseño corto aprobado antes de programar, construcción con pruebas de campo y memoria idempotente. Tiene 6 plantillas (01, 06, 09, 10, 13 y 15) y las 12 reglas de oro en corto.
-- La **edición completa** (propietaria, de LV-Webstudio) añade todo lo demás que se enumera abajo. Se pide a LV-Webstudio.
+- La **edición completa** (propietaria, de Shania Webstudio) añade todo lo demás que se enumera abajo. Se pide a Shania Webstudio.
 - Cambios del método en la 1.5:
   - **Regla 2:** medir antes de alarmar; las afirmaciones públicas llevan fecha, alcance y cómo se ha medido.
   - **Regla 4:** las licencias de los datos externos son un filtro duro.

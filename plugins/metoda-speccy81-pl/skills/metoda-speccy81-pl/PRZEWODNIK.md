@@ -1,5 +1,5 @@
 # Metoda Speccy81 · edycja podstawowa
-LV-Webstudio — wersja 1.7 (2026-10-02)
+Shania Webstudio™ — wersja 1.9 (2026-10-12)
 
 Przewodnik do zakładania rozszerzeń i małych projektów (od 1 do 2 dni na jednym
 komputerze) z takim samym rygorem jak duży projekt: najpierw zrozumieć, co jest, zobaczyć, czego
@@ -21,6 +21,8 @@ Do kilku sesji z minimalnymi zasadami służy Wassup Podstawowa, a do pełnego z
 3. **Faza 7 · Krótki projekt** (`szablony/09-projekt-koncepcyjny.md`) → zatwierdzenie przez użytkownika.
 4. **Faza 8 · Budowa** z testami na prawdziwych danych i testami terenowymi (`szablony/13-testy-terenowe.md`).
 5. **Pamięć idempotentna** (`szablony/15-pamiec-idempotentna.md`) na zamknięcie każdego kroku.
+
+Jeśli ktoś woli prowadzić wszystko w jednym dokumencie, `szablony/26-tryb-lekki.md` zbiera pięć kroków na jednej stronie.
 
 Numeracja faz (0, 7 i 8) pochodzi z pełnej metody, dzięki czemu
 projekt może się rozrosnąć bez zmiany numeracji.
@@ -130,6 +132,12 @@ zwracają AI tylko liczby i identyfikatory; żadnego klucza w tym, co się dystr
 (instalatory, aplikacje, strony); a każdy publiczny adres URL testuje się bez logowania
 przed publikacją.
 
+I jeszcze dwie (1.9): jeśli projekt zależy od technologii obarczonej ryzykiem, zanim się go
+zatwierdzi, robi się **prototyp walidacyjny** na kopii jednorazowej (jedno pytanie z
+odpowiedzią tak lub nie, mierzalne kryteria ustalone wcześniej, limit czasu i plan B);
+a projekt ma krótki `AGENTE.md` z misją agenta, który będzie nim zarządzał, jego
+narzędziami, tym, co może czytać, zmieniać lub wydawać bez pytania, i tym, jak raportuje.
+
 ### Faza 8 · Budowa etapami
 - Każda faza kończy się prawdziwym testem; testy terenowe korzystają z szablonu 13
   (czyste środowisko, wcześniej sprawdzone ustawienia, co się obserwuje, kryterium
@@ -153,7 +161,8 @@ przed publikacją.
   Safari/WebKit, wdrożenie z przeglądem na innym urządzeniu (faza 8 bis),
   publikację (faza 9) oraz zarządzanie wieloma zespołami i sesjami.
 - Edycja pełna dodaje też załączniki krótkich zasad zespołu oraz szablony 22 (migracja danych), 23 (przekazanie
-  lub zmiana maszyny) i 24 (lista kontrolna prywatności).
+  lub zmiana maszyny), 24 (lista kontrolna prywatności), 25 (raport przedwdrożeniowy) i 27
+  (prototyp walidacyjny).
 
 ---
 
@@ -169,6 +178,7 @@ przed publikacją.
 | `szablony/15-pamiec-idempotentna.md` | Zasada 11: `wznowienie.md`, pliki stanu i indeks |
 | `szablony/20-incydent.md` | Ujawniony klucz, dana lub kanał: powstrzymać, zawiadomić, ocenić, poinformować, zarejestrować i wyciągnąć wnioski |
 | `szablony/21-rozliczenie.md` | Zasada 2: zamknięcie każdego zlecenia z dosłownym poleceniem, „Dowód:”, tym, czego nie zrobiono, i tym, czego nie sprawdzono |
+| `szablony/26-tryb-lekki.md` | Pięć kroków w jednym dokumencie: karta i luki, jedna lekka fala, projekt na jedną stronę i zamknięcie |
 
 ---
-To jest **edycja podstawowa** Metody Speccy81. **Edycja pełna** dodaje równoległe fale badań, jeden audyt, wdrożenie i QA na innym urządzeniu, publikację, koordynację kilku komputerów, walidatory i 24 szablonów. Licencja LV-Webstudio: https://lv-webstudio.com/
+To jest **edycja podstawowa** Metody Speccy81. **Edycja pełna** dodaje równoległe fale badań, jeden audyt, wdrożenie i QA na innym urządzeniu, publikację, koordynację kilku komputerów, walidatory i 27 szablonów. Licencja Shania Webstudio™: https://shaniawebstudio.com/

@@ -26,6 +26,8 @@ par du code avec des règles ; l'IA se contente d'expliquer.
 
 **Critères d'acceptation** (avant de commencer) : chacun chiffré, avec des hypothèses explicites (machine, données, réseau), marqué « proposition » jusqu'à sa mesure sur la machine réelle.
 
+**Si l'objectif est d'optimiser** (poids, vitesse, coût) : ligne de base mesurée avant, critère chiffré fixé d'avance et vérification sur l'artefact final (ce qui est servi, téléchargé ou préchargé), pas seulement dans le code.
+
 ## 5. Plan d'essais sur le terrain (résumé et priorité ; détail avec le modèle 13)
 
 ## 6. Décisions de l'utilisateur

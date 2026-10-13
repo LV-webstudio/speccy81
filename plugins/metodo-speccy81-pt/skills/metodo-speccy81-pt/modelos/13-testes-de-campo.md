@@ -10,6 +10,7 @@
 | Dados de teste (reais ou de semente; nunca dados pessoais em capturas de ecrã que fiquem guardadas) | | |
 | Quem executa e quem observa (utilizador / sessão / outra máquina) | | |
 | Como se observa (capturas de ecrã, ADB, registos, `dumpsys`, consola) | | |
+| **Porta «compila»:** verificação de tipos e build de produção a verde sobre o commit que se testa (o servidor de desenvolvimento não o garante) | | |
 
 ## 2. Testes
 | # | Teste | O que confirma | Passos | Resultado esperado | Prioridade |
@@ -22,6 +23,8 @@
 | P1 | | | | |
 
 «⚠ não válido» = a montagem não cumpriu a tabela 1; repete-se e não conta como falha do produto.
+
+**Um teste que falha não se salta:** repete-se (p. ex. 3 vezes) para saber se é instável ou real, vê-se a captura e apura-se se falha o teste ou a aplicação. Se no fim se salta, consta como «saltado» e com o motivo.
 
 ## 4. Conclusões e alterações
 | Conclusão | Afeta (regra / documento / código) | Alteração feita ao mesmo tempo |

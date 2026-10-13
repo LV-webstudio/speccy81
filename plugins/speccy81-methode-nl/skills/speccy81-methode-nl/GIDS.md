@@ -1,5 +1,5 @@
 # Speccy81-methode · basiseditie
-LV-Webstudio — versie 1.7 (2026-10-02)
+Shania Webstudio™ — versie 1.9 (2026-10-12)
 
 Een gids om uitbreidingen en kleine projecten (1 tot 2 dagen op één
 machine) met dezelfde zorgvuldigheid op te zetten als een groot project: eerst begrijpen wat er is, zien wat
@@ -21,6 +21,8 @@ Voor meerdere sessies met minimale regels: Wassup Basis; met het volledige bestu
 3. **Fase 7 · Kort ontwerp** (`sjablonen/09-ontwerp.md`) → goedkeuring van de gebruiker.
 4. **Fase 8 · Bouwen** met echte tests en veldtests (`sjablonen/13-veldtests.md`).
 5. **Idempotent geheugen** (`sjablonen/15-idempotent-geheugen.md`) bij de afsluiting van elke stap.
+
+Wie liever alles in één document houdt, vindt in `sjablonen/26-lichte-modus.md` de vijf stappen op één pagina.
 
 De nummering van de fasen (0, 7 en 8) is die van de volledige methode, zodat het
 project kan groeien zonder iets te hernummeren.
@@ -130,6 +132,12 @@ alleen tellingen en id's terug; geen enkele sleutel in wat wordt verspreid (inst
 apps, websites); en elke openbare URL wordt getest zonder in te loggen voordat die
 wordt gepubliceerd.
 
+En nog twee (1.9): hangt het ontwerp af van een technologie met risico, dan wordt het vóór het
+vastleggen getoetst met een **validatieprototype** in een wegwerpkopie (een vraag met ja of
+nee, vooraf vastgestelde meetbare criteria, tijdslimiet en plan B); en het project heeft een
+kort `AGENTE.md` met de missie van de agent die het gaat beheren, zijn tools, wat hij mag
+lezen, wijzigen of uitgeven zonder te vragen en hoe hij rapporteert.
+
 ### Fase 8 · Gefaseerde bouw
 - Elke fase eindigt met een echte test; veldtests gebruiken sjabloon 13
   (schone opzet, vooraf gecontroleerde instellingen, wat wordt geobserveerd, geldigheids-
@@ -154,7 +162,8 @@ wordt gepubliceerd.
   Safari/WebKit-lijst, de uitrol met controle op een ander apparaat (fase 8 bis), de
   publicatie (fase 9) en het bestuur van meerdere machines en sessies.
 - De volledige editie voegt ook de bijlagen van de korte teamregels toe en de sjablonen 22 (datamigratie),
-  23 (overdracht of machinewissel) en 24 (privacychecklist).
+  23 (overdracht of machinewissel), 24 (privacychecklist), 25 (voorbericht van de uitrol)
+  en 27 (validatieprototype).
 
 ---
 
@@ -170,6 +179,7 @@ wordt gepubliceerd.
 | `sjablonen/15-idempotent-geheugen.md` | Regel 11: `hervatten.md`, toestandsbestanden en index |
 | `sjablonen/20-incident.md` | Een sleutel, gegeven of kanaal blootgesteld: indammen, melden, beoordelen, informeren, registreren en leren |
 | `sjablonen/21-rekenschap.md` | Regel 2: afsluiting van elke opdracht met de letterlijke instructie, «Bewijs:», wat niet gedaan is en wat niet gecontroleerd is |
+| `sjablonen/26-lichte-modus.md` | De vijf stappen in één document: contextblad en hiaten, één lichte golf, ontwerp van één pagina en afsluiting |
 
 ---
-Dit is de **basiseditie** van de Speccy81-methode. De **volledige editie** voegt toe: onderzoeksgolven in parallel, de enkele audit, uitrol en QA op een ander apparaat, publicatie, coördinatie van meerdere machines, de validators en 24 sjablonen. Licentie van LV-Webstudio: https://lv-webstudio.com/
+Dit is de **basiseditie** van de Speccy81-methode. De **volledige editie** voegt toe: onderzoeksgolven in parallel, de enkele audit, uitrol en QA op een ander apparaat, publicatie, coördinatie van meerdere machines, de validators en 27 sjablonen. Licentie van Shania Webstudio™: https://shaniawebstudio.com/

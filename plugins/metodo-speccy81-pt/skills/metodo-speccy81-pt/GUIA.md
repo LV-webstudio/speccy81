@@ -1,5 +1,5 @@
 # Método Speccy81 · edição básica
-LV-Webstudio — versão 1.7 (02-10-2026)
+Shania Webstudio™ — versão 1.9 (12-10-2026)
 
 Um guia para montar ampliações e projetos pequenos (de 1 a 2 dias e uma só
 máquina) com o mesmo rigor de um grande: perceber primeiro o que existe, ver o que
@@ -21,6 +21,8 @@ Para várias sessões com regras mínimas, Wassup Básica; com o governo complet
 3. **Fase 7 · Design curto** (`modelos/09-design.md`) → aprovação do utilizador.
 4. **Fase 8 · Construção** com testes reais e de campo (`modelos/13-testes-de-campo.md`).
 5. **Memória idempotente** (`modelos/15-memoria-idempotente.md`) no fecho de cada passo.
+
+Se se preferir levar tudo num só documento, `modelos/26-modo-ligeiro.md` reúne os cinco passos numa página.
 
 A numeração das fases (0, 7 e 8) é a do método completo, para que o
 projeto possa crescer sem renumerar nada.
@@ -130,6 +132,13 @@ devolvem à IA só contagens e ids; nenhuma chave no que se distribui
 (instaladores, aplicações, sites); e cada URL pública testa-se sem iniciar sessão
 antes de a publicar.
 
+E mais duas (1.9): se o design depender de uma tecnologia de risco, antes de
+o comprometer faz-se um **protótipo de validação** numa cópia descartável
+(uma pergunta de sim ou não, critérios mensuráveis fixados antes, limite de tempo
+e plano B); e o projeto leva um `AGENTE.md` curto com a missão do agente que
+o vai gerir, as suas ferramentas, o que pode ler, alterar ou gastar sem
+perguntar e como informa.
+
 ### Fase 8 · Construção por fases
 - Cada fase termina com um teste real; os testes de campo usam o modelo 13
   (montagem limpa, configurações verificadas antes, o que se observa, critério de
@@ -153,7 +162,8 @@ antes de a publicar.
   Safari/WebKit, a implantação com revisão noutro dispositivo (fase 8 bis), a
   publicação (fase 9) e o governo de várias equipas e sessões.
 - A edição completa acrescenta também os anexos das regras curtas da equipa e os modelos 22 (migração de
-  dados), 23 (passagem de serviço ou mudança de máquina) e 24 (lista de privacidade).
+  dados), 23 (passagem de serviço ou mudança de máquina), 24 (lista de privacidade), 25 (nota prévia à implantação) e 27
+  (protótipo de validação).
 
 ---
 
@@ -169,6 +179,7 @@ antes de a publicar.
 | `modelos/15-memoria-idempotente.md` | Regra 11: `retomar.md`, ficheiros de estado e índice |
 | `modelos/20-incidente.md` | Chave, dado ou canal expostos: conter, avisar, avaliar, informar, registar e aprender |
 | `modelos/21-prestacao-de-contas.md` | Regra 2: fecho de cada encargo com a ordem literal, «Prova:», o não feito e o não verificado |
+| `modelos/26-modo-ligeiro.md` | Os cinco passos num só documento: ficha e lacunas, uma vaga leve, design de uma página e fecho |
 
 ---
-Esta é a **edição básica** do Método Speccy81. A **edição completa** acrescenta as ondas de investigação em paralelo, a auditoria única, a implantação e a QA noutro dispositivo, a publicação, a coordenação de várias máquinas, os validadores e 24 modelos. Com licença da LV-Webstudio: https://lv-webstudio.com/
+Esta é a **edição básica** do Método Speccy81. A **edição completa** acrescenta as ondas de investigação em paralelo, a auditoria única, a implantação e a QA noutro dispositivo, a publicação, a coordenação de várias máquinas, os validadores e 27 modelos. Com licença da Shania Webstudio™: https://shaniawebstudio.com/

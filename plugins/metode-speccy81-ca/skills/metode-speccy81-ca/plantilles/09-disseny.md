@@ -26,6 +26,8 @@ el codi amb regles; la IA només explica.
 
 **Criteris d'acceptació** (abans de començar): cadascun amb números i suposicions explícites (màquina, dades, xarxa), marcat «proposta» fins a mesurar-lo a la màquina real.
 
+**Si l'objectiu és optimitzar** (pes, velocitat, cost): línia de base mesurada abans, criteri numèric fixat per endavant i comprovació a l'artefacte final (el que se serveix, es descarrega o es precarrega), no només al codi.
+
 ## 5. Pla de proves de camp (resum i prioritat; detall amb la plantilla 13)
 
 ## 6. Decisions de l'usuari

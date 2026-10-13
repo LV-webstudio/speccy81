@@ -10,6 +10,7 @@
 | Datos de prueba (reales o de semilla; nunca datos personales en capturas que se guarden) | | |
 | Quién ejecuta y quién observa (usuario / sesión / otro equipo) | | |
 | Cómo se observa (capturas, ADB, registros, `dumpsys`, consola) | | |
+| **Puerta «compila»:** comprobación de tipos y build de producción en verde sobre el commit que se prueba (el servidor de desarrollo no lo garantiza) | | |
 
 ## 2. Pruebas
 | # | Prueba | Qué confirma | Pasos | Resultado esperado | Prioridad |
@@ -22,6 +23,8 @@
 | P1 | | | | |
 
 «⚠ no válida» = el montaje no cumplía la tabla 1; se repite, no cuenta como fallo del producto.
+
+**Una prueba que falla no se salta:** se repite (p. ej. 3 veces) para saber si es inestable o real, se mira la captura y se averigua si falla la prueba o la app. Si al final se salta, consta como «saltada» y con el motivo.
 
 ## 4. Hallazgos y cambios
 | Hallazgo | Afecta a (regla / documento / código) | Cambio hecho a la vez |
