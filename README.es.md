@@ -1,4 +1,4 @@
-# Método Speccy81
+# Método Speccy81 — de la idea al lanzamiento con Claude Code
 
 ![Speccy81 Method](assets/banner.jpg)
 

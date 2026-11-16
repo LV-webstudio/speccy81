@@ -1,4 +1,4 @@
-# Speccy81 Method
+# Speccy81 Method — from idea to launch with Claude Code
 
 ![Speccy81 Method](assets/banner.jpg)
 
